@@ -45,7 +45,7 @@ def wait_for_connection(retry_interval=10, max_retries=5):
 
 def main():
     # Parametrii principali pentru înregistrare și analiză.
-    duration = 15  # Durata totală a înregistrării
+    duration = 60  # Durata totală a înregistrării
     audio_file = "output_audio.wav"
     video_file = "screen_recording.mp4"
     final_file = "final_output.mp4"

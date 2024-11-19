@@ -1447,3 +1447,31 @@ Stacktrace:
 2024-11-19 14:57:20,837 - INFO - Merging audio and video into final output.
 2024-11-19 14:57:30,852 - INFO - Audio and video combined into final_output.mp4.
 2024-11-19 14:57:30,854 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 15:05:52,457 - INFO - Waiting for video to start...
+2024-11-19 15:05:52,683 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 15:05:53,993 - INFO - WebDriver initialized.
+2024-11-19 15:05:55,907 - INFO - Page fully loaded.
+2024-11-19 15:05:55,909 - INFO - Navigated to YouTube.
+2024-11-19 15:05:55,973 - INFO - Cookies popup accepted.
+2024-11-19 15:05:58,233 - INFO - Searched for: test video
+2024-11-19 15:05:59,291 - INFO - Video clicked and playing.
+2024-11-19 15:05:59,822 - INFO - Video is playing.
+2024-11-19 15:05:59,823 - INFO - Video started. Starting recording...
+2024-11-19 15:05:59,823 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 15:05:59,823 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 15:05:59,823 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 15:05:59,894 - INFO - Video recording started.
+2024-11-19 15:05:59,989 - INFO - Audio recording started.
+2024-11-19 15:06:06,185 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 15:06:14,844 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 15:06:15,058 - INFO - Audio saved to output_audio.wav.
+2024-11-19 15:06:15,058 - INFO - Audio recording stopped.
+2024-11-19 15:06:15,589 - INFO - Popup monitor thread stopped.
+2024-11-19 15:06:15,727 - INFO - Browser closed.
+2024-11-19 15:06:15,727 - INFO - Browser closed after duration.
+2024-11-19 15:06:42,801 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 15:06:42,807 - INFO - Video recording stopped.
+2024-11-19 15:06:42,810 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 15:06:42,810 - INFO - Merging audio and video into final output.
+2024-11-19 15:06:51,424 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 15:06:51,425 - INFO - Recording completed. Final output: final_output.mp4

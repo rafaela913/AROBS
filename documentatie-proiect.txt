@@ -1,0 +1,98 @@
+Am utilizat macOS Sequoia 15.1, cea mai recentă versiune disponibilă a sistemului de operare de la Apple, pentru a configura mediul de lucru și a rula proiectul.
+
+Pentru început, am verificat dacă Python este instalat corect, rulând comanda python3 --version în terminal. Am primit confirmarea că este instalată versiunea Python 3.12.2, dupa care am trecut mai departe la instalarea librăriilor necesare.
+
+Pentru instalarea librăriilor, am folosit următoarele comenzi:
+
+pip3 install selenium – Instalarea s-a realizat fără probleme.
+pip3 install numpy – Instalarea s-a realizat fără probleme.
+pip3 install opencv-python – Instalarea s-a realizat fără probleme.
+pip3 install pyautogui – Instalarea s-a realizat fără probleme.
+pip3 install pyaudio – Am întâmpinat eroarea:
+fatal error: 'portaudio.h' file not found.
+Această eroare a apărut deoarece PyAudio necesită librăria PortAudio, care nu era instalată pe sistem. Fișierul portaudio.h este un fișier header esențial pentru compilarea PyAudio.
+Pentru a rezolva problema, am instalat PortAudio folosind comanda:
+brew install portaudio.
+
+Alternativ, dacă nu utilizam Homebrew, puteam descărca librăria PortAudio de pe site-ul oficial.
+
+După instalarea PortAudio, am rulat din nou comanda pip3 install pyaudio, iar instalarea s-a finalizat cu succes.
+
+Urmatorul pas a fost sa configurez Selenium pentru navigarea pe YouTube. Pentru a instala ChromeDriver și a-l configura corect, am urmat următorii pași:
+
+Mai întâi, am verificat versiunea browserului Chrome pe care îl folosesc. Am deschis Chrome, am mers în Setări > Despre Chrome. Acolo am găsit versiunea instalată. 
+
+După ce am aflat versiunea, am intrat pe pagina oficială ChromeDriver și am descărcat versiunea care corespunde exact cu cea a browserului meu. Am avut grijă să aleg fișierul pentru macOS, pentru că folosesc acest sistem de operare. După descărcare, am dezarhivat fișierul, iar în folderul rezultat am găsit executabilul chromedriver.
+
+Ca să fie ușor de utilizat, am mutat fișierul chromedriver într-un director accesibil din PATH-ul sistemului. 
+Acestea au fost comenzile pe care le-am folosit:
+sudo mv /Users/doneaisabela-rafaela/Downloads/chromedriver-mac-arm64/chromedriver /usr/local/bin/
+nano ~/.zshrc
+export PATH=$PATH:/usr/local/bin
+source ~/.zshrc
+chromedriver --version
+
+
+-Când am încercat să rulez scriptul pentru prima dată și să deschid YouTube, mi-a aparut eroarea "ElementNotInteractableException" deoarece a apărut pagina de consimțământ pentru cookie-uri. Am adăugat funcția handle_popups pentru a gestiona automat pop-up-ul de consimțământ pentru cookie-uri. Funcția verifică dacă apare butonul "Accept all", îl face vizibil cu un scroll și dă click pe el. Dacă nu găsește pop-up-ul sau întâmpină erori, loghează aceste informații și continuă execuția scriptului fără probleme. 
+
+-În modulul screen_recorder, am întâmpinat o problemă: nu reușeam să import biblioteca cv2. Pentru a rezolva, am instalat OpenCV folosind comanda: pip3 install opencv-python. Aceeasi problema o aveam si cu ffmpeg, rezolvand cu comanda: pip3 install ffmpeg-python. 
+
+ Am mai intampinat cateva probleme legate de fișierele video generate:
+-Fișiere video cu dimensiunea 0 bytes sau incompatibile:
+Problema a fost rezolvată prin verificarea codec-urilor și trecerea la utilizarea bibliotecii mss pentru captură de ecran, care oferă o soluție mai stabilă și eficientă.
+
+-Fișiere incompatibile pe macOS (ex.: .avi sau mp4v):
+Am configurat corect codec-urile și am ales formate suportate de macOS, cum ar fi .mp4 cu codec-ul libx264, ceea ce a asigurat compatibilitatea și redarea fără erori.
+
+-La partea de inregistrare audio, am intampinat probleme deoarece pe macOS, înregistrarea audio direct din sistem (loopback) nu este posibilă în mod implicit. Pentru a rezolva această limitare, am instalat BlackHole, un driver virtual de sunet care permite redirecționarea audio internă. După instalare, am configurat BlackHole ca sursă de intrare pentru înregistrarea audio, ceea ce a rezolvat problema.
+
+-O alta problema intamplinata era aceea ca thread-ul de monitorizare a pop-up-urilor rămânea activ după ce browserul era închis. Ca si solutie am adăugat metoda stop_popup_monitor pentru a opri explicit thread-ul de monitorizare.
+
+-După terminarea înregistrării (atât audio, cât și video), procesul de merge audio-video începea, dar browserul YouTube rămânea deschis până când procesul de merge era complet.Aceasta ducea la consum inutil de resurse și potențial alte conflicte dacă procesul principal era terminat forțat, motiv pentru care am pornit procesul de merge pe un thread separat.
+
+Pasii executiei, in urma rezolvarii erorilor: 
+1. Inițializare și configurare:
+
+ -Logger: Scriptul începe prin configurarea unui logger pentru a înregistra informațiile (mesaje INFO, WARNING, ERROR) într-un fișier de log (log.txt).
+ -Verificarea conexiunii la internet: Înainte de a începe procesul, scriptul verifică dacă există o conexiune activă la internet, folosind funcția check_internet_connection(). Dacă nu există, scriptul încearcă să reconecteze internetul cu wait_for_connection(). Dacă nu reușește să se conecteze, va opri execuția.
+
+2.Pornirea navigării pe YouTube:
+
+Un thread este lansat pentru a deschide browserul folosind YouTubeNavigator:
+-Inițializează WebDriver-ul Chrome cu initialize_driver().
+-Navighează către YouTube cu navigate_to_youtube().
+-Caută videoclipul dorit folosind search_and_play_video().
+
+3.Înregistrarea audio și video:
+
+ -După ce videoclipul începe să ruleze (confirmat de evenimentul video_ready_event), se lansează un alt thread pentru a înregistra audio și video folosind AVRecorder:
+Audio: Înregistrează audio din sistem folosind AudioRecorder, care captează sunetul cu ajutorul dispozitivului BlackHole.
+Video: Înregistrează ecranul utilizând VideoRecorder și biblioteca mss.
+ -Înregistrarea audio și video începe în paralel și rulează pentru durata specificată.
+
+4.Monitorizarea pop-up-urilor:
+
+ -În timpul redării videoclipului, YouTubeNavigator monitorizează pop-up-urile (cum ar fi reclame YouTube Premium) într-un thread separat folosind monitor_popups().
+ -Dacă apare un pop-up de tip YouTube Premium, acesta este închis automat.
+
+5.Finalizarea înregistrării:
+
+După înregistrarea audio și video pentru durata stabilită:
+-AVRecorder oprește înregistrarea audio și video cu stop_recording().
+-Se apelează merge_audio_video() pentru a combina fișierele audio și video într-un fișier final folosind ffmpeg.
+
+6.Analiza audio:
+
+-După combinarea fișierelor audio și video, AudioAnalyzer este folosit pentru a analiza nivelul de sunet (dB) din videoclipul final.
+-Analiza sunetului este făcută pe segmente de 0.1 secunde, iar nivelul dB este salvat într-un fișier de ieșire (nivel_sunet_dB.txt).
+
+7.Curățarea resurselor:
+
+După încheierea procesului, scriptul se asigură că toate resursele sunt curățate:
+-Se oprește thread-ul de monitorizare a pop-up-urilor cu stop_popup_monitor().
+-Browserul se închide folosind close_browser().
+-Se opresc toate procesele active pentru capturarea audio și video.
+
+8.Gestionarea erorilor:
+
+Dacă apare vreo eroare pe parcurs, scriptul capturează eroarea și o salvează în log, iar execuția scriptului se oprește. În caz de eroare, se încearcă curățarea resurselor și oprirea proceselor active pentru a evita blocarea acestora.
