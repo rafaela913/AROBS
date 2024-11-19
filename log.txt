@@ -1,0 +1,1421 @@
+2024-11-18 20:53:43,324 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:53:43,324 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 20:53:43,373 - INFO - Video recording started.
+2024-11-18 20:53:43,396 - INFO - Audio recording started.
+2024-11-18 20:53:44,574 - INFO - WebDriver initialized.
+2024-11-18 20:53:48,442 - INFO - Page fully loaded.
+2024-11-18 20:53:48,443 - INFO - Navigated to YouTube.
+2024-11-18 20:53:48,517 - INFO - Cookies popup accepted.
+2024-11-18 20:53:50,812 - INFO - Searched for: test video
+2024-11-18 20:53:52,126 - INFO - Video clicked and playing.
+2024-11-18 20:53:53,260 - INFO - Video is playing.
+2024-11-18 20:53:53,261 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 20:54:00,616 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 20:54:43,849 - INFO - Audio saved to output_audio.wav.
+2024-11-18 20:54:43,865 - INFO - Audio recording stopped.
+2024-11-18 20:55:08,287 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 20:56:58,363 - INFO - Video saved to screen_recording.mp4.
+2024-11-18 20:56:58,397 - INFO - Video recording stopped.
+2024-11-18 20:56:58,406 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 20:56:58,409 - INFO - Merging audio and video into final output.
+2024-11-18 20:57:32,050 - ERROR - Eroare la monitorizarea pop-up-urilor: 'NoneType' object has no attribute 'is_displayed'
+2024-11-18 20:57:33,109 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:34,154 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:35,923 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:37,796 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:38,817 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:39,826 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:40,843 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:41,852 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:42,859 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:43,869 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000102dab6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102da3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102810104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001027ebb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010287866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010288b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102846f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102847ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000102d7624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102d79590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102d5d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102d79e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000102d4e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000102d948fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102d94a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000102da3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:57:44,913 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109efc740>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/22faf239446882f84904acc7fbe02170/element
+2024-11-18 20:57:44,984 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109efeba0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/22faf239446882f84904acc7fbe02170/element
+2024-11-18 20:57:45,057 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10289ef60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/22faf239446882f84904acc7fbe02170/element
+2024-11-18 20:57:45,057 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60887): Max retries exceeded with url: /session/22faf239446882f84904acc7fbe02170/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109efc8f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 20:57:45,147 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109efede0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/22faf239446882f84904acc7fbe02170
+2024-11-18 20:57:45,149 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109efec90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/22faf239446882f84904acc7fbe02170
+2024-11-18 20:57:45,149 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109eff1d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/22faf239446882f84904acc7fbe02170
+2024-11-18 20:57:45,348 - INFO - Browser closed.
+2024-11-18 22:54:34,896 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 22:54:34,896 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 22:54:34,945 - INFO - Video recording started.
+2024-11-18 22:54:36,930 - INFO - Audio recording started.
+2024-11-18 22:54:38,855 - INFO - WebDriver initialized.
+2024-11-18 22:54:43,828 - INFO - Page fully loaded.
+2024-11-18 22:54:43,831 - INFO - Navigated to YouTube.
+2024-11-18 22:54:43,896 - INFO - Cookies popup accepted.
+2024-11-18 22:54:46,116 - INFO - Searched for: test video
+2024-11-18 22:54:47,326 - INFO - Video clicked and playing.
+2024-11-18 22:54:48,382 - INFO - Video is playing.
+2024-11-18 22:54:48,382 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 22:54:52,074 - INFO - Audio saved to output_audio.wav.
+2024-11-18 22:54:52,074 - INFO - Audio recording stopped.
+2024-11-18 22:54:55,706 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 22:55:00,530 - INFO - Video saved to screen_recording.mp4.
+2024-11-18 22:55:00,530 - INFO - Video recording stopped.
+2024-11-18 22:55:18,392 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 22:55:18,393 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 22:55:18,393 - INFO - Merging audio and video into final output.
+2024-11-18 22:55:27,907 - INFO - Audio and video combined into final_output.mp4.
+2024-11-18 22:55:27,908 - ERROR - An error occurred: 'YouTubeNavigator' object has no attribute 'stop_video'
+2024-11-18 22:55:28,140 - INFO - Browser closed.
+2024-11-18 22:58:08,457 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 22:58:08,458 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 22:58:08,507 - INFO - Video recording started.
+2024-11-18 22:58:08,529 - INFO - Audio recording started.
+2024-11-18 22:58:09,682 - INFO - WebDriver initialized.
+2024-11-18 22:58:14,344 - INFO - Page fully loaded.
+2024-11-18 22:58:14,344 - INFO - Navigated to YouTube.
+2024-11-18 22:58:14,404 - INFO - Cookies popup accepted.
+2024-11-18 22:58:16,961 - INFO - Searched for: test video
+2024-11-18 22:58:18,188 - INFO - Video clicked and playing.
+2024-11-18 22:58:19,273 - INFO - Video is playing.
+2024-11-18 22:58:19,274 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 22:58:23,677 - INFO - Audio saved to output_audio.wav.
+2024-11-18 22:58:23,679 - INFO - Audio recording stopped.
+2024-11-18 22:58:34,194 - INFO - Video saved to screen_recording.mp4.
+2024-11-18 22:58:34,194 - INFO - Video recording stopped.
+2024-11-18 22:58:49,282 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 22:58:49,283 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 22:58:49,283 - INFO - Merging audio and video into final output.
+2024-11-18 22:58:59,584 - INFO - Audio and video combined into final_output.mp4.
+2024-11-18 22:59:06,331 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-18 22:59:06,857 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-18 22:59:08,411 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-18 22:59:08,926 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-18 22:59:09,447 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-18 22:59:09,963 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-18 22:59:09,968 - ERROR - Error stopping video playback: Message: 
+
+2024-11-18 22:59:10,147 - INFO - Browser closed.
+2024-11-18 22:59:10,148 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-18 22:59:10,149 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c82af30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4425e3195eabee499a10aff5d59b8878
+2024-11-18 22:59:10,149 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c82a870>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4425e3195eabee499a10aff5d59b8878
+2024-11-18 22:59:10,150 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c82b140>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/4425e3195eabee499a10aff5d59b8878
+2024-11-18 22:59:10,151 - INFO - Browser closed.
+2024-11-18 23:03:50,837 - INFO - Waiting for video to start...
+2024-11-18 23:03:50,837 - ERROR - An error occurred: 'YouTubeNavigator' object has no attribute 'video_ready_event'
+2024-11-18 23:03:51,988 - INFO - WebDriver initialized.
+2024-11-18 23:03:56,824 - INFO - Page fully loaded.
+2024-11-18 23:03:56,824 - INFO - Navigated to YouTube.
+2024-11-18 23:03:56,867 - INFO - Cookies popup accepted.
+2024-11-18 23:03:59,081 - INFO - Searched for: test video
+2024-11-18 23:04:00,153 - INFO - Video clicked and playing.
+2024-11-18 23:04:01,201 - INFO - Video is playing.
+2024-11-18 23:05:57,007 - INFO - Waiting for video to start...
+2024-11-18 23:05:57,893 - INFO - WebDriver initialized.
+2024-11-18 23:06:02,736 - INFO - Page fully loaded.
+2024-11-18 23:06:02,736 - INFO - Navigated to YouTube.
+2024-11-18 23:06:02,781 - INFO - Cookies popup accepted.
+2024-11-18 23:06:05,474 - INFO - Searched for: test video
+2024-11-18 23:06:06,547 - INFO - Video clicked and playing.
+2024-11-18 23:06:07,609 - INFO - Video is playing.
+2024-11-18 23:06:07,610 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 23:06:13,843 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 23:06:22,614 - INFO - Video started. Starting recording...
+2024-11-18 23:06:22,615 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:06:22,615 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:06:22,673 - INFO - Video recording started.
+2024-11-18 23:06:22,692 - INFO - Audio recording started.
+2024-11-18 23:06:37,640 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 23:06:37,870 - INFO - Audio saved to output_audio.wav.
+2024-11-18 23:06:37,870 - INFO - Audio recording stopped.
+2024-11-18 23:07:31,173 - INFO - Video saved to screen_recording.mp4.
+2024-11-18 23:07:31,191 - INFO - Video recording stopped.
+2024-11-18 23:07:31,205 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 23:07:31,210 - INFO - Merging audio and video into final output.
+2024-11-18 23:07:49,057 - INFO - Audio and video combined into final_output.mp4.
+2024-11-18 23:07:59,430 - ERROR - Error stopping video playback: Message: 
+
+2024-11-18 23:07:59,655 - ERROR - Eroare la monitorizarea pop-up-urilor: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-18 23:07:59,657 - INFO - Browser closed.
+2024-11-18 23:07:59,657 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-18 23:07:59,658 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x118d26ba0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f750817697cb8c47c39a4380ca63e119
+2024-11-18 23:07:59,658 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x118d27020>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f750817697cb8c47c39a4380ca63e119
+2024-11-18 23:07:59,658 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x118d26540>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f750817697cb8c47c39a4380ca63e119
+2024-11-18 23:07:59,659 - INFO - Browser closed.
+2024-11-18 23:12:12,439 - INFO - Waiting for video to start...
+2024-11-18 23:12:13,571 - INFO - WebDriver initialized.
+2024-11-18 23:12:25,496 - INFO - Page fully loaded.
+2024-11-18 23:12:25,496 - INFO - Navigated to YouTube.
+2024-11-18 23:12:25,576 - INFO - Cookies popup accepted.
+2024-11-18 23:12:28,086 - INFO - Searched for: test video
+2024-11-18 23:12:29,192 - INFO - Video clicked and playing.
+2024-11-18 23:12:30,230 - INFO - Video is playing.
+2024-11-18 23:12:30,230 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 23:12:37,975 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 23:12:42,443 - INFO - Video started. Starting recording...
+2024-11-18 23:12:42,443 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:12:42,444 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:12:42,509 - INFO - Video recording started.
+2024-11-18 23:12:42,536 - INFO - Audio recording started.
+2024-11-18 23:12:45,742 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000100e8b6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000100e83f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x00000001008f0104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001008cbb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010095866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010096b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000100926f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000100927ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000100e5624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000100e59590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000100e3d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000100e59e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000100e2e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000100e748fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000100e74a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000100e83ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 23:12:46,756 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000100e8b6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000100e83f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x00000001008f0104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001008cbb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010095866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010096b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000100926f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000100927ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000100e5624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000100e59590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000100e3d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000100e59e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000100e2e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000100e748fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000100e74a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000100e83ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 23:12:46,765 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/32a35fc3e3955d053d77ce936170fce3
+2024-11-18 23:12:46,766 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e76e810>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3
+2024-11-18 23:12:46,767 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104621490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3
+2024-11-18 23:12:46,788 - INFO - Browser closed.
+2024-11-18 23:12:47,762 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104503f20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3/element
+2024-11-18 23:12:47,763 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045255b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3/element
+2024-11-18 23:12:47,763 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104525820>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3/element
+2024-11-18 23:12:47,764 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61609): Max retries exceeded with url: /session/32a35fc3e3955d053d77ce936170fce3/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104525a60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:12:48,775 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104525df0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3/element
+2024-11-18 23:12:48,776 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e76e720>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3/element
+2024-11-18 23:12:48,777 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e76f3b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/32a35fc3e3955d053d77ce936170fce3/element
+2024-11-18 23:12:48,777 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61609): Max retries exceeded with url: /session/32a35fc3e3955d053d77ce936170fce3/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e76f5f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:19:09,715 - INFO - Waiting for video to start...
+2024-11-18 23:19:10,843 - INFO - WebDriver initialized.
+2024-11-18 23:19:15,206 - INFO - Page fully loaded.
+2024-11-18 23:19:15,207 - INFO - Navigated to YouTube.
+2024-11-18 23:19:15,251 - INFO - Cookies popup accepted.
+2024-11-18 23:19:17,457 - INFO - Searched for: test video
+2024-11-18 23:19:18,520 - INFO - Video clicked and playing.
+2024-11-18 23:19:19,585 - INFO - Video is playing.
+2024-11-18 23:19:19,586 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 23:19:26,795 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 23:19:34,591 - INFO - Video started. Starting recording...
+2024-11-18 23:19:34,591 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:19:34,593 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:19:34,666 - INFO - Video recording started.
+2024-11-18 23:19:34,689 - INFO - Audio recording started.
+2024-11-18 23:19:49,600 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 23:19:49,807 - INFO - Audio saved to output_audio.wav.
+2024-11-18 23:19:49,807 - INFO - Audio recording stopped.
+2024-11-18 23:20:33,071 - INFO - Video saved to screen_recording.mp4.
+2024-11-18 23:20:33,075 - INFO - Video recording stopped.
+2024-11-18 23:20:33,076 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 23:20:33,077 - ERROR - An error occurred: AVRecorder.merge_audio_video() missing 1 required positional argument: 'audio_file'
+2024-11-18 23:20:33,291 - INFO - Browser closed.
+2024-11-18 23:26:40,307 - INFO - Waiting for video to start...
+2024-11-18 23:26:41,524 - INFO - WebDriver initialized.
+2024-11-18 23:26:47,058 - INFO - Page fully loaded.
+2024-11-18 23:26:47,059 - INFO - Navigated to YouTube.
+2024-11-18 23:26:47,098 - INFO - Cookies popup accepted.
+2024-11-18 23:26:49,336 - INFO - Searched for: test video
+2024-11-18 23:26:50,271 - INFO - Video clicked and playing.
+2024-11-18 23:26:51,370 - INFO - Video is playing.
+2024-11-18 23:26:51,370 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 23:26:59,136 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 23:27:03,764 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001033376ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x000000010332ff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102d9c104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000102d77b70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x0000000102e0466c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000102e17638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102dd2f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102dd3ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x000000010330224c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000103305590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x00000001032e9670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000103305e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x00000001032da8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001033208fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000103320a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x000000010332fba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 23:27:04,660 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/e7f52a3cff868f4119ea3d600ab36dc7
+2024-11-18 23:27:04,662 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10dca2e40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7f52a3cff868f4119ea3d600ab36dc7
+2024-11-18 23:27:04,663 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10dca2ba0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7f52a3cff868f4119ea3d600ab36dc7
+2024-11-18 23:27:04,680 - INFO - Browser closed.
+2024-11-18 23:27:04,767 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10456fef0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7f52a3cff868f4119ea3d600ab36dc7/element
+2024-11-18 23:27:04,768 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045914f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7f52a3cff868f4119ea3d600ab36dc7/element
+2024-11-18 23:27:04,768 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1045916d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e7f52a3cff868f4119ea3d600ab36dc7/element
+2024-11-18 23:27:04,769 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61812): Max retries exceeded with url: /session/e7f52a3cff868f4119ea3d600ab36dc7/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104591940>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:03,245 - INFO - Waiting for video to start...
+2024-11-18 23:30:04,118 - INFO - WebDriver initialized.
+2024-11-18 23:30:08,189 - INFO - Page fully loaded.
+2024-11-18 23:30:08,189 - INFO - Navigated to YouTube.
+2024-11-18 23:30:08,254 - INFO - Cookies popup accepted.
+2024-11-18 23:30:10,505 - INFO - Searched for: test video
+2024-11-18 23:30:11,573 - INFO - Video clicked and playing.
+2024-11-18 23:30:12,623 - INFO - Video is playing.
+2024-11-18 23:30:12,623 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 23:30:27,629 - INFO - Video started. Starting recording...
+2024-11-18 23:30:27,714 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:30:27,715 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:30:27,776 - INFO - Video recording started.
+2024-11-18 23:30:27,799 - INFO - Audio recording started.
+2024-11-18 23:30:29,207 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 23:30:30,216 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x000000010531f6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000105317f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000104d84104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000104d5fb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x0000000104dec66c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000104dff638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000104dbaf54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000104dbbba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x00000001052ea24c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x00000001052ed590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x00000001052d1670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x00000001052ede54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x00000001052c28f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001053088fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000105308a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000105317ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 23:30:31,224 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x000000010531f6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000105317f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000104d84104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000104d5fb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x0000000104dec66c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000104dff638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000104dbaf54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000104dbbba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x00000001052ea24c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x00000001052ed590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x00000001052d1670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x00000001052ede54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x00000001052c28f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001053088fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000105308a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000105317ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 23:30:31,553 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/f47c157d0a7673f2ee13fd8106f63eee
+2024-11-18 23:30:31,566 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51ad50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee
+2024-11-18 23:30:31,567 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1050cd4c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee
+2024-11-18 23:30:31,596 - INFO - Browser closed.
+2024-11-18 23:30:32,251 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104db7f50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:32,254 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd9610>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:32,258 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd9850>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:32,260 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd9a60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:33,266 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd9e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:33,267 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51b290>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:33,267 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51b4a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:33,267 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51b6b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:34,273 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51ba40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:34,275 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51bc80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:34,276 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd9e20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:34,277 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd99a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:35,284 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd9820>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:35,284 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104dd93a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:35,285 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d596a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:35,285 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e4eac30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:36,291 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51b680>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:36,292 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51b320>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:36,292 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51a0c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:36,292 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51bd70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:37,305 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e56c200>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:37,306 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e56c440>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:37,306 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e56c650>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:37,307 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e56c890>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:30:38,312 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e56cc50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:38,313 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51b440>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:38,313 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51be30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f47c157d0a7673f2ee13fd8106f63eee/element
+2024-11-18 23:30:38,313 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=61872): Max retries exceeded with url: /session/f47c157d0a7673f2ee13fd8106f63eee/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e51a0c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 23:35:09,694 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:35:09,694 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:35:09,738 - INFO - Video recording started.
+2024-11-18 23:35:09,768 - INFO - Audio recording started.
+2024-11-18 23:35:10,944 - INFO - WebDriver initialized.
+2024-11-18 23:35:13,987 - ERROR - Failed to navigate to YouTube: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001027776ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x000000010276ff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x00000001021dc104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001021b7b70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010224466c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000102257638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000102212f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000102213ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x000000010274224c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000102745590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000102729670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000102745e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010271a8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001027608fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000102760a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x000000010276fba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 23:35:18,738 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/965808a661430f9deddbe923e92de3a2
+2024-11-18 23:35:18,740 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ddccec0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/965808a661430f9deddbe923e92de3a2
+2024-11-18 23:35:18,740 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ddce870>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/965808a661430f9deddbe923e92de3a2
+2024-11-18 23:35:18,748 - INFO - Browser closed.
+2024-11-19 00:33:36,377 - INFO - Waiting for video to start...
+2024-11-19 00:33:37,583 - INFO - WebDriver initialized.
+2024-11-19 00:33:43,318 - INFO - Page fully loaded.
+2024-11-19 00:33:43,319 - INFO - Navigated to YouTube.
+2024-11-19 00:33:43,366 - INFO - Cookies popup accepted.
+2024-11-19 00:33:45,587 - INFO - Searched for: test video
+2024-11-19 00:33:46,652 - INFO - Video clicked and playing.
+2024-11-19 00:33:47,808 - INFO - Video is playing.
+2024-11-19 00:33:47,809 - INFO - Video started. Starting recording...
+2024-11-19 00:33:47,809 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:33:47,809 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 00:33:47,810 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 00:33:47,882 - INFO - Video recording started.
+2024-11-19 00:33:47,903 - INFO - Audio recording started.
+2024-11-19 00:34:03,049 - INFO - Audio saved to output_audio.wav.
+2024-11-19 00:34:03,051 - INFO - Audio recording stopped.
+2024-11-19 00:34:03,311 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 00:34:16,257 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 00:34:16,259 - INFO - Video recording stopped.
+2024-11-19 00:34:17,813 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 00:34:17,814 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 00:34:17,814 - ERROR - An error occurred: AVRecorder.merge_audio_video() missing 2 required positional arguments: 'video_file' and 'audio_file'
+2024-11-19 00:34:17,989 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x00000001009a76ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x000000010099ff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x000000010040bf74 cxxbridge1$string$len + 88016
+3   chromedriver                        0x0000000100442cf4 cxxbridge1$string$len + 312656
+4   chromedriver                        0x0000000100443ba4 cxxbridge1$string$len + 316416
+5   chromedriver                        0x000000010097224c cxxbridge1$str$ptr + 3427196
+6   chromedriver                        0x0000000100975590 cxxbridge1$str$ptr + 3440320
+7   chromedriver                        0x0000000100959670 cxxbridge1$str$ptr + 3325856
+8   chromedriver                        0x0000000100975e54 cxxbridge1$str$ptr + 3442564
+9   chromedriver                        0x000000010094a8f4 cxxbridge1$str$ptr + 3265060
+10  chromedriver                        0x00000001009908fc cxxbridge1$str$ptr + 3551788
+11  chromedriver                        0x0000000100990a78 cxxbridge1$str$ptr + 3552168
+12  chromedriver                        0x000000010099fba4 cxxbridge1$str$ptr + 3613908
+13  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+14  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-19 00:34:17,991 - INFO - Browser closed.
+2024-11-19 00:37:22,909 - INFO - Waiting for video to start...
+2024-11-19 00:37:23,966 - INFO - WebDriver initialized.
+2024-11-19 00:37:29,086 - INFO - Page fully loaded.
+2024-11-19 00:37:29,086 - INFO - Navigated to YouTube.
+2024-11-19 00:37:29,123 - INFO - Cookies popup accepted.
+2024-11-19 00:37:31,344 - INFO - Searched for: test video
+2024-11-19 00:37:32,413 - INFO - Video clicked and playing.
+2024-11-19 00:37:33,461 - INFO - Video is playing.
+2024-11-19 00:37:33,462 - INFO - Video started. Starting recording...
+2024-11-19 00:37:33,462 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:37:33,462 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 00:37:33,462 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 00:37:33,507 - INFO - Video recording started.
+2024-11-19 00:37:33,541 - INFO - Audio recording started.
+2024-11-19 00:37:48,467 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 00:37:48,639 - INFO - Audio saved to output_audio.wav.
+2024-11-19 00:37:48,640 - INFO - Audio recording stopped.
+2024-11-19 00:37:48,933 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 00:37:59,819 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 00:37:59,819 - INFO - Video recording stopped.
+2024-11-19 00:37:59,820 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 00:37:59,820 - INFO - Merging audio and video into final output.
+2024-11-19 00:38:12,977 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 00:38:12,977 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 00:38:13,275 - ERROR - Eroare la monitorizarea pop-up-urilor: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-19 00:38:13,277 - INFO - Browser closed.
+2024-11-19 00:49:38,406 - INFO - Waiting for video to start...
+2024-11-19 00:49:39,523 - INFO - WebDriver initialized.
+2024-11-19 00:49:44,755 - INFO - Page fully loaded.
+2024-11-19 00:49:44,757 - INFO - Navigated to YouTube.
+2024-11-19 00:49:44,821 - INFO - Cookies popup accepted.
+2024-11-19 00:49:47,006 - INFO - Searched for: test video
+2024-11-19 00:49:47,918 - INFO - Video clicked and playing.
+2024-11-19 00:49:49,076 - INFO - Video is playing.
+2024-11-19 00:49:49,079 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:49:49,079 - INFO - Video started. Starting recording...
+2024-11-19 00:49:49,079 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 00:49:49,080 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 00:49:49,147 - INFO - Video recording started.
+2024-11-19 00:49:49,174 - INFO - Audio recording started.
+2024-11-19 00:50:04,095 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 00:50:04,107 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 00:50:04,285 - INFO - Audio saved to output_audio.wav.
+2024-11-19 00:50:04,285 - INFO - Audio recording stopped.
+2024-11-19 00:50:20,661 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 00:50:20,665 - INFO - Video recording stopped.
+2024-11-19 00:50:20,668 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 00:50:20,669 - INFO - Merging audio and video into final output.
+2024-11-19 00:50:37,510 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 00:50:37,512 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 00:50:37,695 - ERROR - Eroare la monitorizarea pop-up-urilor: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-19 00:50:37,698 - INFO - Browser closed.
+2024-11-19 00:51:46,044 - INFO - Waiting for video to start...
+2024-11-19 00:51:47,321 - INFO - WebDriver initialized.
+2024-11-19 00:51:49,914 - INFO - Page fully loaded.
+2024-11-19 00:51:49,914 - INFO - Navigated to YouTube.
+2024-11-19 00:51:50,022 - INFO - Cookies popup accepted.
+2024-11-19 00:51:52,243 - INFO - Searched for: test video
+2024-11-19 00:51:53,128 - INFO - Video clicked and playing.
+2024-11-19 00:51:54,186 - INFO - Video is playing.
+2024-11-19 00:51:54,186 - INFO - Video started. Starting recording...
+2024-11-19 00:51:54,186 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:51:54,186 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 00:51:54,186 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 00:51:54,235 - INFO - Video recording started.
+2024-11-19 00:51:54,269 - INFO - Audio recording started.
+2024-11-19 00:52:02,241 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 00:52:09,192 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 00:52:09,362 - INFO - Audio saved to output_audio.wav.
+2024-11-19 00:52:09,362 - INFO - Audio recording stopped.
+2024-11-19 00:52:19,598 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 00:52:19,603 - INFO - Video recording stopped.
+2024-11-19 00:52:19,606 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 00:52:19,609 - INFO - Merging audio and video into final output.
+2024-11-19 00:52:38,907 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 00:52:39,129 - ERROR - Eroare la monitorizarea pop-up-urilor: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-19 00:52:39,131 - INFO - Browser closed.
+2024-11-19 00:52:39,131 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 00:52:39,132 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a68ac90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/5b8f4ca40adb68ca8565c5a63138cab9
+2024-11-19 00:52:39,132 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a6c32c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/5b8f4ca40adb68ca8565c5a63138cab9
+2024-11-19 00:52:39,133 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a6c2c60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/5b8f4ca40adb68ca8565c5a63138cab9
+2024-11-19 00:52:39,134 - INFO - Browser closed.
+2024-11-19 00:58:04,786 - INFO - Waiting for video to start...
+2024-11-19 00:58:06,172 - INFO - WebDriver initialized.
+2024-11-19 00:58:08,846 - INFO - Page fully loaded.
+2024-11-19 00:58:08,846 - INFO - Navigated to YouTube.
+2024-11-19 00:58:08,943 - INFO - Cookies popup accepted.
+2024-11-19 00:58:11,193 - INFO - Searched for: test video
+2024-11-19 00:58:12,262 - INFO - Video clicked and playing.
+2024-11-19 00:58:13,291 - INFO - Video is playing.
+2024-11-19 00:58:13,291 - INFO - Video started. Starting recording...
+2024-11-19 00:58:13,291 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:58:13,291 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 00:58:13,292 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 00:58:13,360 - INFO - Video recording started.
+2024-11-19 00:58:13,382 - INFO - Audio recording started.
+2024-11-19 00:58:23,767 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 00:58:28,306 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 00:58:28,463 - ERROR - Eroare la monitorizarea pop-up-urilor: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-19 00:58:28,465 - INFO - Browser closed.
+2024-11-19 00:58:28,465 - INFO - Browser closed after duration.
+2024-11-19 00:58:28,485 - INFO - Audio saved to output_audio.wav.
+2024-11-19 00:58:28,485 - INFO - Audio recording stopped.
+2024-11-19 00:58:29,469 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2750>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:29,470 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2870>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:29,471 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3770>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:29,472 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a39b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:30,474 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3d40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:30,475 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3f80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:30,475 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8200>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:30,476 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8440>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:31,479 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e87d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:31,480 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8a10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:31,481 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8c50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:31,482 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8e90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:32,483 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3380>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:32,483 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3d40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:32,484 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3410>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:32,484 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3a10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:33,490 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2d80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:33,490 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a30e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:33,491 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a76ee70>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:33,491 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:34,499 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8260>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:34,500 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9100>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:34,500 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9340>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:34,501 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9580>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:35,507 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9910>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:35,507 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9b50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:35,508 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9d90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:35,508 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a76e960>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:36,514 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2570>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:36,515 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a35f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:36,515 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3cb0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:36,516 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3980>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:37,520 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3dd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:37,521 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3ef0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:37,521 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8470>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:37,522 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e91f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:38,528 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9310>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:38,528 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e81d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:38,529 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e80b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:38,529 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9fd0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:39,533 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea360>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:39,534 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea5a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:39,534 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10169db80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:39,535 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:40,541 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a27e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:40,541 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a39b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:40,542 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3cb0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:40,542 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3140>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:41,551 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a76ee70>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:41,552 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e93d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:41,552 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e81a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:41,553 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e83e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:42,559 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e92b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:42,559 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9520>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:42,560 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8200>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:42,560 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9e20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:43,564 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea9f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:43,565 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eac30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:43,565 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103028d40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:43,566 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2750>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:44,572 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a34a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:44,572 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:44,572 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3770>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:44,573 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3d70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:45,575 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea8d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:45,576 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9d60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:45,576 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9dc0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:45,576 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9430>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:46,580 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8290>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:46,582 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e86b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:46,582 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:46,583 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eacf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:47,589 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eb0b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:47,589 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a37d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:47,589 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2480>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:47,590 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3860>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:48,592 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a32c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:48,596 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a0ce0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:48,597 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3b60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:48,597 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c69580>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:49,601 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea000>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:49,601 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ead50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:49,602 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9fd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:49,602 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea030>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:50,608 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:50,609 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9d30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:50,609 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e92e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:50,609 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eaab0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:51,651 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eb4d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:51,651 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a76ef00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:51,652 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a74fe60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:51,652 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a0fb0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:52,656 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a34a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:52,656 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3fb0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:52,657 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3860>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:52,657 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3920>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:53,661 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e97f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:53,661 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9280>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:53,662 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e94c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:53,662 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9ca0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:54,667 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e81a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:54,667 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea030>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:54,668 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea060>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:54,668 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8380>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:55,674 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eb110>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:55,675 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3a40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:55,675 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3fe0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:55,676 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3470>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:56,678 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3710>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:56,678 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a33b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:56,679 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3140>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:56,679 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10302b230>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:57,257 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 00:58:57,257 - INFO - Video recording stopped.
+2024-11-19 00:58:57,258 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 00:58:57,258 - INFO - Merging audio and video into final output.
+2024-11-19 00:58:57,695 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ead50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:57,696 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eacc0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:57,696 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9f10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:57,697 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e95b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:58,709 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9070>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:58,711 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eaba0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:58,713 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e90a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:58,714 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eab10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:58:59,726 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3680>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:59,727 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3c50>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:59,729 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3b30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:58:59,731 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3770>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:00,753 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:00,761 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3d10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:00,769 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea9f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:00,775 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ead20>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:01,816 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e81a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:01,821 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea2a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:01,828 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e82f0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:01,833 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8260>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:02,846 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea150>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:02,847 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea5d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:02,847 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea330>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:02,848 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e83b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:03,854 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3ec0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:03,857 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3fe0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:03,857 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3860>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:03,858 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3710>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:04,869 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a2750>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:04,870 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a27e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:04,871 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eb230>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:04,871 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e9610>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:05,882 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8f80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:05,883 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7eacf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:05,884 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8050>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:05,885 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7ea9f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:06,891 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e99a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:06,892 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e89b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:06,892 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8e90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10/element
+2024-11-19 00:59:06,893 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=62706): Max retries exceeded with url: /session/c73cf0ccd7c5da493c1277950a25ac10/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7e8b60>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-19 00:59:06,914 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 00:59:06,914 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 00:59:06,916 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a76ef90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10
+2024-11-19 00:59:06,916 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3d40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10
+2024-11-19 00:59:06,917 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a7a3dd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c73cf0ccd7c5da493c1277950a25ac10
+2024-11-19 00:59:06,920 - INFO - Browser closed.
+2024-11-19 01:03:14,054 - INFO - Waiting for video to start...
+2024-11-19 01:03:15,302 - INFO - WebDriver initialized.
+2024-11-19 01:03:19,494 - INFO - Page fully loaded.
+2024-11-19 01:03:19,495 - INFO - Navigated to YouTube.
+2024-11-19 01:03:19,592 - INFO - Cookies popup accepted.
+2024-11-19 01:03:22,173 - INFO - Searched for: test video
+2024-11-19 01:03:23,066 - INFO - Video clicked and playing.
+2024-11-19 01:03:24,130 - INFO - Video is playing.
+2024-11-19 01:03:24,130 - INFO - Video started. Starting recording...
+2024-11-19 01:03:24,130 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 01:03:24,130 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:03:24,130 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:03:24,175 - INFO - Video recording started.
+2024-11-19 01:03:24,197 - INFO - Audio recording started.
+2024-11-19 01:03:39,136 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:03:39,343 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:03:39,343 - INFO - Audio recording stopped.
+2024-11-19 01:03:39,898 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 01:03:59,729 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:03:59,738 - INFO - Video recording stopped.
+2024-11-19 01:03:59,748 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:03:59,751 - INFO - Merging audio and video into final output.
+2024-11-19 01:04:15,902 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:04:47,560 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001014db6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x00000001014d3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000100f40104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000100f1bb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x0000000100fa866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000100fbb638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000100f76f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000100f77ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x00000001014a624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x00000001014a9590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x000000010148d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x00000001014a9e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010147e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001014c48fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x00000001014c4a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x00000001014d3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-19 01:04:48,568 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001014db6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x00000001014d3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000100f40104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000100f1bb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x0000000100fa866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000100fbb638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000100f76f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000100f77ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x00000001014a624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x00000001014a9590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x000000010148d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x00000001014a9e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010147e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001014c48fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x00000001014c4a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x00000001014d3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-19 01:04:49,573 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001014db6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x00000001014d3f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000100f40104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000100f1bb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x0000000100fa866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000100fbb638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000100f76f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000100f77ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x00000001014a624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x00000001014a9590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x000000010148d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x00000001014a9e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010147e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001014c48fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x00000001014c4a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x00000001014d3ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-19 01:04:49,683 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c05a480>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f9e914932222b461dbca87eee4cde33d
+2024-11-19 01:04:49,685 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c0971a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f9e914932222b461dbca87eee4cde33d
+2024-11-19 01:04:49,686 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c096ff0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f9e914932222b461dbca87eee4cde33d
+2024-11-19 01:04:49,704 - INFO - Browser closed.
+2024-11-19 01:07:38,809 - INFO - Waiting for video to start...
+2024-11-19 01:07:40,087 - INFO - WebDriver initialized.
+2024-11-19 01:07:44,662 - INFO - Page fully loaded.
+2024-11-19 01:07:44,662 - INFO - Navigated to YouTube.
+2024-11-19 01:07:44,705 - INFO - Cookies popup accepted.
+2024-11-19 01:07:46,877 - INFO - Searched for: test video
+2024-11-19 01:07:47,952 - INFO - Video clicked and playing.
+2024-11-19 01:07:48,556 - INFO - Video is playing.
+2024-11-19 01:07:48,556 - INFO - Video started. Starting recording...
+2024-11-19 01:07:48,556 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:07:48,557 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:07:48,601 - INFO - Video recording started.
+2024-11-19 01:07:48,656 - INFO - Audio recording started.
+2024-11-19 01:08:03,563 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:08:03,708 - INFO - Browser closed.
+2024-11-19 01:08:03,708 - INFO - Browser closed after duration.
+2024-11-19 01:08:03,755 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:08:03,755 - INFO - Audio recording stopped.
+2024-11-19 01:08:23,979 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:08:23,981 - INFO - Video recording stopped.
+2024-11-19 01:08:23,983 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:08:23,983 - INFO - Merging audio and video into final output.
+2024-11-19 01:08:36,913 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:08:36,914 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 01:08:36,929 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e27b320>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/62d33a0cfb08eea928a4752ed214f2c8
+2024-11-19 01:08:36,931 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e23ed20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/62d33a0cfb08eea928a4752ed214f2c8
+2024-11-19 01:08:36,931 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e27b350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/62d33a0cfb08eea928a4752ed214f2c8
+2024-11-19 01:08:36,932 - INFO - Browser closed.
+2024-11-19 01:11:40,120 - INFO - Waiting for video to start...
+2024-11-19 01:11:41,338 - INFO - WebDriver initialized.
+2024-11-19 01:11:45,953 - INFO - Page fully loaded.
+2024-11-19 01:11:45,953 - INFO - Navigated to YouTube.
+2024-11-19 01:11:45,993 - INFO - Cookies popup accepted.
+2024-11-19 01:11:48,169 - INFO - Searched for: test video
+2024-11-19 01:11:49,230 - INFO - Video clicked and playing.
+2024-11-19 01:11:50,314 - INFO - Video is playing.
+2024-11-19 01:11:50,314 - INFO - Video started. Starting recording...
+2024-11-19 01:11:50,314 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:11:50,326 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:11:50,380 - INFO - Video recording started.
+2024-11-19 01:11:50,405 - INFO - Audio recording started.
+2024-11-19 01:12:05,349 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:12:05,552 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:12:05,552 - INFO - Audio recording stopped.
+2024-11-19 01:12:05,570 - INFO - Browser closed.
+2024-11-19 01:12:05,570 - INFO - Browser closed after duration.
+2024-11-19 01:12:36,674 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:12:36,678 - INFO - Video recording stopped.
+2024-11-19 01:12:36,680 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:12:36,681 - INFO - Merging audio and video into final output.
+2024-11-19 01:12:49,100 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:12:49,101 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 01:12:49,134 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10be63050>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0eb8a714ce6fb80f99e341cd55ed867a
+2024-11-19 01:12:49,135 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1046df1d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0eb8a714ce6fb80f99e341cd55ed867a
+2024-11-19 01:12:49,136 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10be63260>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/0eb8a714ce6fb80f99e341cd55ed867a
+2024-11-19 01:12:49,139 - INFO - Browser closed.
+2024-11-19 01:13:14,574 - INFO - Waiting for video to start...
+2024-11-19 01:13:16,040 - INFO - WebDriver initialized.
+2024-11-19 01:13:18,801 - INFO - Page fully loaded.
+2024-11-19 01:13:18,801 - INFO - Navigated to YouTube.
+2024-11-19 01:13:18,871 - INFO - Cookies popup accepted.
+2024-11-19 01:13:21,051 - INFO - Searched for: test video
+2024-11-19 01:13:22,216 - INFO - Video clicked and playing.
+2024-11-19 01:13:23,260 - INFO - Video is playing.
+2024-11-19 01:13:23,260 - INFO - Video started. Starting recording...
+2024-11-19 01:13:23,260 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:13:23,261 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:13:23,315 - INFO - Video recording started.
+2024-11-19 01:13:23,342 - INFO - Audio recording started.
+2024-11-19 01:13:38,278 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:13:38,518 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:13:38,518 - INFO - Audio recording stopped.
+2024-11-19 01:13:38,582 - INFO - Browser closed.
+2024-11-19 01:13:38,582 - INFO - Browser closed after duration.
+2024-11-19 01:14:09,866 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:14:09,869 - INFO - Video recording stopped.
+2024-11-19 01:14:09,871 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:14:09,871 - INFO - Merging audio and video into final output.
+2024-11-19 01:14:22,958 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:14:22,960 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 01:14:22,979 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10f226990>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2f0a5354f65b405eac1fbddf6a578aeb
+2024-11-19 01:14:22,980 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10f1eeae0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2f0a5354f65b405eac1fbddf6a578aeb
+2024-11-19 01:14:22,981 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10f226ed0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/2f0a5354f65b405eac1fbddf6a578aeb
+2024-11-19 01:14:22,984 - INFO - Browser closed.
+2024-11-19 01:16:00,425 - INFO - Waiting for video to start...
+2024-11-19 01:16:01,698 - INFO - WebDriver initialized.
+2024-11-19 01:16:04,534 - INFO - Page fully loaded.
+2024-11-19 01:16:04,535 - INFO - Navigated to YouTube.
+2024-11-19 01:16:04,680 - INFO - Cookies popup accepted.
+2024-11-19 01:16:06,839 - INFO - Searched for: test video
+2024-11-19 01:16:07,898 - INFO - Video clicked and playing.
+2024-11-19 01:16:08,933 - INFO - Video is playing.
+2024-11-19 01:16:08,933 - INFO - Video started. Starting recording...
+2024-11-19 01:16:08,933 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 01:16:08,933 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:16:08,933 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:16:08,984 - INFO - Video recording started.
+2024-11-19 01:16:09,040 - INFO - Audio recording started.
+2024-11-19 01:16:23,938 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:16:24,140 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:16:24,140 - INFO - Audio recording stopped.
+2024-11-19 01:16:24,422 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 01:16:24,423 - INFO - Popup monitor thread stopped.
+2024-11-19 01:16:24,572 - INFO - Browser closed.
+2024-11-19 01:16:24,572 - INFO - Browser closed after duration.
+2024-11-19 01:16:42,398 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:16:42,401 - INFO - Video recording stopped.
+2024-11-19 01:16:42,403 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:16:42,406 - INFO - Merging audio and video into final output.
+2024-11-19 01:16:51,793 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:16:51,794 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 01:16:51,803 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c583050>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/fb054916e35025614c32e4d0d23a1a92
+2024-11-19 01:16:51,804 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104e27980>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/fb054916e35025614c32e4d0d23a1a92
+2024-11-19 01:16:51,804 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c583110>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/fb054916e35025614c32e4d0d23a1a92
+2024-11-19 01:16:51,806 - INFO - Browser closed.
+2024-11-19 01:31:51,720 - INFO - Waiting for video to start...
+2024-11-19 01:31:53,840 - INFO - WebDriver initialized.
+2024-11-19 01:31:57,625 - INFO - Page fully loaded.
+2024-11-19 01:31:57,626 - INFO - Navigated to YouTube.
+2024-11-19 01:31:57,749 - INFO - Cookies popup accepted.
+2024-11-19 01:31:59,946 - INFO - Searched for: test video
+2024-11-19 01:32:01,007 - INFO - Video clicked and playing.
+2024-11-19 01:32:02,072 - INFO - Video is playing.
+2024-11-19 01:32:02,074 - INFO - Video started. Starting recording...
+2024-11-19 01:32:02,074 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:32:02,078 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 01:32:02,086 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:32:02,253 - INFO - Video recording started.
+2024-11-19 01:32:02,300 - INFO - Audio recording started.
+2024-11-19 01:32:17,094 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:32:17,376 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:32:17,376 - INFO - Audio recording stopped.
+2024-11-19 01:32:17,869 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 01:32:17,869 - INFO - Popup monitor thread stopped.
+2024-11-19 01:32:18,032 - INFO - Browser closed.
+2024-11-19 01:32:18,032 - INFO - Browser closed after duration.
+2024-11-19 01:32:36,755 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:32:36,759 - INFO - Video recording stopped.
+2024-11-19 01:32:36,761 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:32:36,761 - INFO - Merging audio and video into final output.
+2024-11-19 01:32:50,240 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:32:50,246 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 01:32:50,283 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115db4560>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/fc302d326554157b5d43e38dd4a424e1
+2024-11-19 01:32:50,286 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115db48c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/fc302d326554157b5d43e38dd4a424e1
+2024-11-19 01:32:50,286 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x115db4a40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/fc302d326554157b5d43e38dd4a424e1
+2024-11-19 01:32:50,295 - INFO - Browser closed.
+2024-11-19 01:36:01,950 - ERROR - No internet connection detected. Waiting for reconnection...
+2024-11-19 01:36:06,950 - ERROR - No internet connection. Retrying in 10 seconds...
+2024-11-19 01:36:45,967 - ERROR - No internet connection detected. Waiting for reconnection...
+2024-11-19 01:36:50,971 - ERROR - No internet connection. Retrying in 10 seconds...
+2024-11-19 01:38:39,626 - ERROR - No internet connection detected. Waiting for reconnection...
+2024-11-19 01:38:49,629 - ERROR - No internet connection. Retrying in 10 seconds...
+2024-11-19 01:39:50,128 - ERROR - No internet connection detected. Waiting for reconnection...
+2024-11-19 01:39:55,134 - ERROR - No internet connection. Retrying in 10 seconds...
+2024-11-19 01:40:58,630 - INFO - Waiting for video to start...
+2024-11-19 01:40:59,861 - INFO - WebDriver initialized.
+2024-11-19 01:41:02,629 - INFO - Page fully loaded.
+2024-11-19 01:41:02,629 - INFO - Navigated to YouTube.
+2024-11-19 01:41:02,673 - INFO - Cookies popup accepted.
+2024-11-19 01:41:04,897 - INFO - Searched for: test video
+2024-11-19 01:41:05,798 - INFO - Video clicked and playing.
+2024-11-19 01:41:06,869 - INFO - Video is playing.
+2024-11-19 01:41:06,869 - INFO - Video started. Starting recording...
+2024-11-19 01:41:06,869 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 01:41:06,869 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:41:06,872 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:41:07,003 - INFO - Video recording started.
+2024-11-19 01:41:07,034 - INFO - Audio recording started.
+2024-11-19 01:41:21,906 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:41:21,999 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 01:41:21,999 - INFO - Popup monitor thread stopped.
+2024-11-19 01:41:22,131 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:41:22,131 - INFO - Audio recording stopped.
+2024-11-19 01:41:22,176 - INFO - Browser closed.
+2024-11-19 01:41:22,176 - INFO - Browser closed after duration.
+2024-11-19 01:41:31,682 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:41:31,684 - INFO - Video recording stopped.
+2024-11-19 01:41:31,684 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:41:31,684 - INFO - Merging audio and video into final output.
+2024-11-19 01:41:42,377 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:41:42,379 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 01:41:42,395 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10af94bf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d353f2d30c3b4716eafd653feeb854ed
+2024-11-19 01:41:42,395 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10af95010>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d353f2d30c3b4716eafd653feeb854ed
+2024-11-19 01:41:42,396 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10af951c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/d353f2d30c3b4716eafd653feeb854ed
+2024-11-19 01:41:42,398 - INFO - Browser closed.
+2024-11-19 01:45:25,752 - INFO - Waiting for video to start...
+2024-11-19 01:45:26,801 - INFO - WebDriver initialized.
+2024-11-19 01:45:29,506 - INFO - Page fully loaded.
+2024-11-19 01:45:29,506 - INFO - Navigated to YouTube.
+2024-11-19 01:45:29,574 - INFO - Cookies popup accepted.
+2024-11-19 01:45:31,798 - INFO - Searched for: test video
+2024-11-19 01:45:32,863 - INFO - Video clicked and playing.
+2024-11-19 01:45:33,905 - INFO - Video is playing.
+2024-11-19 01:45:33,905 - INFO - Video started. Starting recording...
+2024-11-19 01:45:33,906 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 01:45:33,906 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 01:45:33,907 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 01:45:33,979 - INFO - Video recording started.
+2024-11-19 01:45:34,008 - INFO - Audio recording started.
+2024-11-19 01:45:48,929 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 01:45:49,069 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 01:45:49,070 - INFO - Popup monitor thread stopped.
+2024-11-19 01:45:49,166 - INFO - Audio saved to output_audio.wav.
+2024-11-19 01:45:49,166 - INFO - Audio recording stopped.
+2024-11-19 01:45:49,252 - INFO - Browser closed.
+2024-11-19 01:45:49,253 - INFO - Browser closed after duration.
+2024-11-19 01:46:15,335 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 01:46:15,339 - INFO - Video recording stopped.
+2024-11-19 01:46:15,341 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 01:46:15,342 - INFO - Merging audio and video into final output.
+2024-11-19 01:46:25,083 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 01:46:25,084 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 13:19:59,887 - INFO - Waiting for video to start...
+2024-11-19 13:20:06,540 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 13:20:09,407 - INFO - WebDriver initialized.
+2024-11-19 13:20:12,659 - INFO - Page fully loaded.
+2024-11-19 13:20:12,659 - INFO - Navigated to YouTube.
+2024-11-19 13:20:13,227 - INFO - Cookies popup accepted.
+2024-11-19 13:20:15,523 - INFO - Searched for: test video
+2024-11-19 13:20:16,304 - INFO - Video clicked and playing.
+2024-11-19 13:20:17,344 - INFO - Video is playing.
+2024-11-19 13:20:17,345 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 13:20:17,345 - INFO - Video started. Starting recording...
+2024-11-19 13:20:17,345 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 13:20:17,346 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 13:20:17,474 - INFO - Video recording started.
+2024-11-19 13:20:17,525 - INFO - Audio recording started.
+2024-11-19 13:20:24,601 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 13:20:32,354 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 13:20:32,554 - INFO - Audio saved to output_audio.wav.
+2024-11-19 13:20:32,555 - INFO - Audio recording stopped.
+2024-11-19 13:20:33,925 - INFO - Popup monitor thread stopped.
+2024-11-19 13:20:34,060 - INFO - Browser closed.
+2024-11-19 13:20:34,060 - INFO - Browser closed after duration.
+2024-11-19 13:21:01,259 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 13:21:01,265 - INFO - Video recording stopped.
+2024-11-19 13:21:01,267 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 13:21:01,269 - INFO - Merging audio and video into final output.
+2024-11-19 13:21:10,200 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 13:21:10,201 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 13:23:54,724 - INFO - Waiting for video to start...
+2024-11-19 13:23:54,960 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 13:23:56,228 - INFO - WebDriver initialized.
+2024-11-19 13:23:58,151 - INFO - Page fully loaded.
+2024-11-19 13:23:58,152 - INFO - Navigated to YouTube.
+2024-11-19 13:23:58,222 - INFO - Cookies popup accepted.
+2024-11-19 13:24:00,437 - INFO - Searched for: test video
+2024-11-19 13:24:01,536 - INFO - Video clicked and playing.
+2024-11-19 13:24:01,568 - INFO - Video duration detected: 
+2024-11-19 13:24:01,569 - ERROR - Failed to get video duration: invalid literal for int() with base 10: ''
+2024-11-19 13:24:01,569 - ERROR - Video duration (Nones) is shorter than the required duration (15s).
+2024-11-19 13:24:24,726 - ERROR - An error occurred: Video did not start playing in time.
+2024-11-19 13:24:24,905 - INFO - Browser closed.
+2024-11-19 13:25:14,517 - INFO - Waiting for video to start...
+2024-11-19 13:25:14,727 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 13:25:15,960 - INFO - WebDriver initialized.
+2024-11-19 13:25:17,668 - INFO - Page fully loaded.
+2024-11-19 13:25:17,668 - INFO - Navigated to YouTube.
+2024-11-19 13:25:17,800 - INFO - Cookies popup accepted.
+2024-11-19 13:25:20,032 - INFO - Searched for: test video
+2024-11-19 13:25:21,089 - INFO - Video clicked and playing.
+2024-11-19 13:25:21,644 - INFO - Video is playing.
+2024-11-19 13:25:21,645 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 13:25:21,645 - INFO - Video started. Starting recording...
+2024-11-19 13:25:21,645 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 13:25:21,645 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 13:25:21,710 - INFO - Video recording started.
+2024-11-19 13:25:21,749 - INFO - Audio recording started.
+2024-11-19 13:25:36,653 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 13:25:36,850 - INFO - Audio saved to output_audio.wav.
+2024-11-19 13:25:36,850 - INFO - Audio recording stopped.
+2024-11-19 13:25:37,046 - INFO - Popup monitor thread stopped.
+2024-11-19 13:25:37,244 - INFO - Browser closed.
+2024-11-19 13:25:37,245 - INFO - Browser closed after duration.
+2024-11-19 13:26:04,941 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 13:26:04,946 - INFO - Video recording stopped.
+2024-11-19 13:26:04,948 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 13:26:04,948 - INFO - Merging audio and video into final output.
+2024-11-19 13:26:15,478 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 13:26:15,479 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 13:26:55,061 - INFO - Waiting for video to start...
+2024-11-19 13:26:55,268 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 13:26:56,646 - INFO - WebDriver initialized.
+2024-11-19 13:26:58,603 - INFO - Page fully loaded.
+2024-11-19 13:26:58,603 - INFO - Navigated to YouTube.
+2024-11-19 13:26:58,645 - INFO - Cookies popup accepted.
+2024-11-19 13:27:00,875 - INFO - Searched for: test video
+2024-11-19 13:27:01,965 - INFO - Video clicked and playing.
+2024-11-19 13:27:03,012 - INFO - Video is playing.
+2024-11-19 13:27:03,012 - INFO - Video started. Starting recording...
+2024-11-19 13:27:03,013 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 13:27:03,013 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 13:27:03,013 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 13:27:03,070 - INFO - Video recording started.
+2024-11-19 13:27:03,082 - INFO - Audio recording started.
+2024-11-19 13:27:18,193 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 13:28:03,071 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 13:28:03,763 - INFO - Audio saved to output_audio.wav.
+2024-11-19 13:28:03,763 - INFO - Audio recording stopped.
+2024-11-19 13:28:05,325 - INFO - Popup monitor thread stopped.
+2024-11-19 13:28:05,556 - INFO - Browser closed.
+2024-11-19 13:28:05,556 - INFO - Browser closed after duration.
+2024-11-19 13:30:59,611 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 13:30:59,640 - INFO - Video recording stopped.
+2024-11-19 13:30:59,661 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 13:30:59,664 - INFO - Merging audio and video into final output.
+2024-11-19 13:32:23,979 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 13:32:23,993 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 13:58:18,719 - INFO - Waiting for video to start...
+2024-11-19 13:58:23,972 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 13:58:25,269 - INFO - WebDriver initialized.
+2024-11-19 13:58:29,004 - INFO - Page fully loaded.
+2024-11-19 13:58:29,004 - INFO - Navigated to YouTube.
+2024-11-19 13:58:29,059 - INFO - Cookies popup accepted.
+2024-11-19 13:58:31,307 - INFO - Searched for: test video
+2024-11-19 13:58:32,384 - INFO - Video clicked and playing.
+2024-11-19 13:58:33,430 - INFO - Video is playing.
+2024-11-19 13:58:33,430 - INFO - Video started. Starting recording...
+2024-11-19 13:58:33,430 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 13:58:33,430 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 13:58:33,431 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 13:58:33,535 - INFO - Video recording started.
+2024-11-19 13:58:33,556 - INFO - Audio recording started.
+2024-11-19 13:58:39,705 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 13:58:48,455 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 13:58:48,665 - INFO - Audio saved to output_audio.wav.
+2024-11-19 13:58:48,665 - INFO - Audio recording stopped.
+2024-11-19 13:58:49,148 - INFO - Popup monitor thread stopped.
+2024-11-19 13:58:49,279 - INFO - Browser closed.
+2024-11-19 13:58:49,279 - INFO - Browser closed after duration.
+2024-11-19 13:59:26,719 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 13:59:26,728 - INFO - Video recording stopped.
+2024-11-19 13:59:26,730 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 13:59:26,730 - INFO - Merging audio and video into final output.
+2024-11-19 13:59:37,068 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 13:59:37,070 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 13:59:37,737 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 13:59:37,737 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 13:59:37,737 - INFO - Merging audio and video into final output.
+2024-11-19 13:59:46,688 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 14:04:34,475 - INFO - Waiting for video to start...
+2024-11-19 14:04:34,695 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 14:04:36,000 - INFO - WebDriver initialized.
+2024-11-19 14:04:37,944 - INFO - Page fully loaded.
+2024-11-19 14:04:37,945 - INFO - Navigated to YouTube.
+2024-11-19 14:04:38,016 - INFO - Cookies popup accepted.
+2024-11-19 14:04:40,258 - INFO - Searched for: test video
+2024-11-19 14:04:41,180 - INFO - Video clicked and playing.
+2024-11-19 14:04:42,253 - INFO - Video is playing.
+2024-11-19 14:04:42,254 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 14:04:42,254 - INFO - Video started. Starting recording...
+2024-11-19 14:04:42,254 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 14:04:42,255 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 14:04:42,318 - INFO - Video recording started.
+2024-11-19 14:04:42,336 - INFO - Audio recording started.
+2024-11-19 14:04:48,519 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 14:04:57,261 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 14:04:57,435 - INFO - Audio saved to output_audio.wav.
+2024-11-19 14:04:57,435 - INFO - Audio recording stopped.
+2024-11-19 14:04:57,862 - INFO - Popup monitor thread stopped.
+2024-11-19 14:04:58,017 - INFO - Browser closed.
+2024-11-19 14:04:58,017 - INFO - Browser closed after duration.
+2024-11-19 14:05:09,741 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 14:05:09,749 - INFO - Video recording stopped.
+2024-11-19 14:05:09,750 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 14:05:09,750 - INFO - Merging audio and video into final output.
+2024-11-19 14:05:17,331 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 14:05:17,332 - INFO - Recording completed. Final output: final_output.mp4
+2024-11-19 14:05:17,820 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 14:05:17,820 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 14:05:17,820 - INFO - Merging audio and video into final output.
+2024-11-19 14:05:24,579 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 14:09:33,466 - INFO - Waiting for video to start...
+2024-11-19 14:09:33,689 - WARNING - The chromedriver version (130.0.6723.93) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (131.0.6778.70); currently, chromedriver 131.0.6778.69 is recommended for chrome 131.*, so it is advised to delete the driver in PATH and retry
+2024-11-19 14:09:34,980 - INFO - WebDriver initialized.
+2024-11-19 14:09:36,913 - INFO - Page fully loaded.
+2024-11-19 14:09:36,914 - INFO - Navigated to YouTube.
+2024-11-19 14:09:36,983 - INFO - Cookies popup accepted.
+2024-11-19 14:09:39,189 - INFO - Searched for: test video
+2024-11-19 14:09:40,250 - INFO - Video clicked and playing.
+2024-11-19 14:09:41,294 - INFO - Video is playing.
+2024-11-19 14:09:41,294 - INFO - Video started. Starting recording...
+2024-11-19 14:09:41,294 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 14:09:41,295 - INFO - Starting AVRecorder (audio + video).
+2024-11-19 14:09:41,295 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-19 14:09:41,355 - INFO - Video recording started.
+2024-11-19 14:09:41,379 - INFO - Audio recording started.
+2024-11-19 14:09:47,795 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 14:09:56,303 - INFO - Stopping AVRecorder (audio + video).
+2024-11-19 14:09:56,493 - INFO - Audio saved to output_audio.wav.
+2024-11-19 14:09:56,493 - INFO - Audio recording stopped.
+2024-11-19 14:09:57,139 - INFO - Popup monitor thread stopped.
+2024-11-19 14:09:57,271 - INFO - Browser closed.
+2024-11-19 14:09:57,271 - INFO - Browser closed after duration.
+2024-11-19 14:10:31,223 - INFO - Video saved to screen_recording.mp4.
+2024-11-19 14:10:31,227 - INFO - Video recording stopped.
+2024-11-19 14:10:31,228 - INFO - AVRecorder stopped (audio + video).
+2024-11-19 14:10:31,229 - INFO - Merging audio and video into final output.
+2024-11-19 14:10:40,847 - INFO - Audio and video combined into final_output.mp4.
+2024-11-19 14:10:40,848 - INFO - Recording completed. Final output: final_output.mp4

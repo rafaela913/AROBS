@@ -1,0 +1,589 @@
+2024-11-18 19:11:02,569 - INFO - WebDriver initialized.
+2024-11-18 19:11:08,279 - INFO - Navigated to YouTube.
+2024-11-18 19:11:13,447 - INFO - No cookie pop-up found.
+2024-11-18 19:11:18,550 - INFO - No notification pop-up found.
+2024-11-18 19:11:18,844 - INFO - Searched for: test video
+2024-11-18 19:11:20,054 - INFO - Video clicked and playing.
+2024-11-18 19:11:21,274 - INFO - Video is playing.
+2024-11-18 19:11:21,275 - INFO - YouTubeNavigator completed.
+2024-11-18 19:11:21,404 - INFO - Browser closed.
+2024-11-18 19:11:42,212 - INFO - WebDriver initialized.
+2024-11-18 19:11:46,382 - INFO - Navigated to YouTube.
+2024-11-18 19:11:51,762 - INFO - No cookie pop-up found.
+2024-11-18 19:11:56,901 - INFO - No notification pop-up found.
+2024-11-18 19:11:57,091 - INFO - Searched for: test video
+2024-11-18 19:11:58,501 - INFO - Video clicked and playing.
+2024-11-18 19:12:00,198 - INFO - Video is playing.
+2024-11-18 19:12:00,199 - INFO - YouTubeNavigator completed.
+2024-11-18 19:12:10,336 - INFO - Browser closed.
+2024-11-18 19:12:13,547 - INFO - WebDriver initialized.
+2024-11-18 19:12:18,186 - INFO - Navigated to YouTube.
+2024-11-18 19:12:23,348 - INFO - No cookie pop-up found.
+2024-11-18 19:12:28,507 - INFO - No notification pop-up found.
+2024-11-18 19:12:29,583 - ERROR - Error in YouTubeNavigator: Message: element click intercepted: Element <input id="search" autocapitalize="none" autocomplete="off" autocorrect="off" name="search_query" tabindex="0" type="text" spellcheck="false" placeholder="Search" aria-label="Search"> is not clickable at point (837, 28). Other element would receive the click: <tp-yt-paper-dialog id="dialog" aria-labelledby="cb-header" modal="" class="eom-v1-dialog style-scope ytd-consent-bump-v2-lightbox style-scope ytd-consent-bump-v2-lightbox" style-target="host" role="dialog" tabindex="-1" aria-modal="true" style="outline: none; position: fixed; top: 8px; left: 505px; box-sizing: border-box; max-height: 864px; max-width: 1710px; z-index: 2202;">...</tp-yt-paper-dialog>
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000104a136ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000104a0bf0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000104478104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001044bfa74 cxxbridge1$string$len + 381648
+4   chromedriver                        0x00000001044be0dc cxxbridge1$string$len + 375096
+5   chromedriver                        0x00000001044bc320 cxxbridge1$string$len + 367484
+6   chromedriver                        0x00000001044bb534 cxxbridge1$string$len + 363920
+7   chromedriver                        0x00000001044b0e14 cxxbridge1$string$len + 321136
+8   chromedriver                        0x00000001044b08b0 cxxbridge1$string$len + 319756
+9   chromedriver                        0x00000001044f3bd0 cxxbridge1$string$len + 594988
+10  chromedriver                        0x00000001044aef54 cxxbridge1$string$len + 313264
+11  chromedriver                        0x00000001044afba4 cxxbridge1$string$len + 316416
+12  chromedriver                        0x00000001049de24c cxxbridge1$str$ptr + 3427196
+13  chromedriver                        0x00000001049e1590 cxxbridge1$str$ptr + 3440320
+14  chromedriver                        0x00000001049c5670 cxxbridge1$str$ptr + 3325856
+15  chromedriver                        0x00000001049e1e54 cxxbridge1$str$ptr + 3442564
+16  chromedriver                        0x00000001049b68f4 cxxbridge1$str$ptr + 3265060
+17  chromedriver                        0x00000001049fc8fc cxxbridge1$str$ptr + 3551788
+18  chromedriver                        0x00000001049fca78 cxxbridge1$str$ptr + 3552168
+19  chromedriver                        0x0000000104a0bba4 cxxbridge1$str$ptr + 3613908
+20  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+21  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:12:29,583 - INFO - YouTubeNavigator completed.
+2024-11-18 19:12:39,715 - INFO - Browser closed.
+2024-11-18 19:13:40,951 - INFO - WebDriver initialized.
+2024-11-18 19:13:45,206 - INFO - Navigated to YouTube.
+2024-11-18 19:13:50,519 - INFO - No cookie pop-up found.
+2024-11-18 19:13:55,660 - INFO - No notification pop-up found.
+2024-11-18 19:13:55,826 - INFO - Searched for: test video
+2024-11-18 19:13:56,908 - INFO - Video clicked and playing.
+2024-11-18 19:13:58,145 - INFO - Video is playing.
+2024-11-18 19:13:58,146 - INFO - YouTubeNavigator completed.
+2024-11-18 19:14:08,281 - INFO - Browser closed.
+2024-11-18 19:22:00,047 - INFO - WebDriver initialized.
+2024-11-18 19:22:04,662 - INFO - Navigated to YouTube.
+2024-11-18 19:22:09,879 - INFO - No cookie pop-up found.
+2024-11-18 19:22:15,026 - INFO - No notification pop-up found.
+2024-11-18 19:22:15,183 - INFO - Searched for: test video
+2024-11-18 19:22:16,336 - INFO - Video clicked and playing.
+2024-11-18 19:22:19,481 - INFO - Video is playing.
+2024-11-18 19:22:19,481 - INFO - YouTube navigation task completed.
+2024-11-18 19:22:19,481 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:22:19,604 - INFO - Browser closed.
+2024-11-18 19:23:13,706 - INFO - WebDriver initialized.
+2024-11-18 19:23:14,088 - INFO - Navigated to YouTube.
+2024-11-18 19:23:19,191 - INFO - No cookie pop-up found.
+2024-11-18 19:23:24,476 - INFO - No notification pop-up found.
+2024-11-18 19:23:24,607 - INFO - Searched for: test video
+2024-11-18 19:23:34,894 - ERROR - Error searching or playing video: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001029e76ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x00000001029dff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x000000010244c104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x000000010248e364 cxxbridge1$string$len + 359360
+4   chromedriver                        0x00000001024c7bd0 cxxbridge1$string$len + 594988
+5   chromedriver                        0x0000000102482f54 cxxbridge1$string$len + 313264
+6   chromedriver                        0x0000000102483ba4 cxxbridge1$string$len + 316416
+7   chromedriver                        0x00000001029b224c cxxbridge1$str$ptr + 3427196
+8   chromedriver                        0x00000001029b5590 cxxbridge1$str$ptr + 3440320
+9   chromedriver                        0x0000000102999670 cxxbridge1$str$ptr + 3325856
+10  chromedriver                        0x00000001029b5e54 cxxbridge1$str$ptr + 3442564
+11  chromedriver                        0x000000010298a8f4 cxxbridge1$str$ptr + 3265060
+12  chromedriver                        0x00000001029d08fc cxxbridge1$str$ptr + 3551788
+13  chromedriver                        0x00000001029d0a78 cxxbridge1$str$ptr + 3552168
+14  chromedriver                        0x00000001029dfba4 cxxbridge1$str$ptr + 3613908
+15  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:23:34,894 - INFO - YouTube navigation task completed.
+2024-11-18 19:23:34,894 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:23:50,028 - INFO - Browser closed.
+2024-11-18 19:23:54,793 - INFO - WebDriver initialized.
+2024-11-18 19:23:59,453 - INFO - Navigated to YouTube.
+2024-11-18 19:24:04,950 - INFO - No cookie pop-up found.
+2024-11-18 19:24:10,096 - INFO - No notification pop-up found.
+2024-11-18 19:24:10,258 - INFO - Searched for: test video
+2024-11-18 19:24:11,413 - INFO - Video clicked and playing.
+2024-11-18 19:24:12,470 - INFO - Video is playing.
+2024-11-18 19:24:12,470 - INFO - YouTube navigation task completed.
+2024-11-18 19:24:12,471 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:24:27,616 - INFO - Browser closed.
+2024-11-18 19:25:36,654 - INFO - WebDriver initialized.
+2024-11-18 19:25:40,810 - INFO - Navigated to YouTube.
+2024-11-18 19:25:46,158 - INFO - No cookie pop-up found.
+2024-11-18 19:25:51,320 - INFO - No notification pop-up found.
+2024-11-18 19:25:51,537 - INFO - Searched for: test video
+2024-11-18 19:25:52,654 - INFO - Video clicked and playing.
+2024-11-18 19:25:53,980 - INFO - Video is playing.
+2024-11-18 19:25:53,980 - INFO - YouTube navigation task completed.
+2024-11-18 19:25:53,980 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:28:43,985 - INFO - WebDriver initialized.
+2024-11-18 19:28:46,479 - INFO - Navigated to YouTube.
+2024-11-18 19:28:50,727 - ERROR - Error in YouTube navigation: Message: stale element reference: stale element not found
+  (Session info: chrome=130.0.6723.119); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x000000010073f6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000100737f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x00000001001a4104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001001b1824 cxxbridge1$string$len + 143488
+4   chromedriver                        0x00000001001a97a8 cxxbridge1$string$len + 110596
+5   chromedriver                        0x00000001001a8148 cxxbridge1$string$len + 104868
+6   chromedriver                        0x00000001001aa8a0 cxxbridge1$string$len + 114940
+7   chromedriver                        0x00000001001aa918 cxxbridge1$string$len + 115060
+8   chromedriver                        0x00000001001e7b68 cxxbridge1$string$len + 365508
+9   chromedriver                        0x00000001001dcd14 cxxbridge1$string$len + 320880
+10  chromedriver                        0x00000001001dc8b0 cxxbridge1$string$len + 319756
+11  chromedriver                        0x000000010021fbd0 cxxbridge1$string$len + 594988
+12  chromedriver                        0x00000001001daf54 cxxbridge1$string$len + 313264
+13  chromedriver                        0x00000001001dbba4 cxxbridge1$string$len + 316416
+14  chromedriver                        0x000000010070a24c cxxbridge1$str$ptr + 3427196
+15  chromedriver                        0x000000010070d590 cxxbridge1$str$ptr + 3440320
+16  chromedriver                        0x00000001006f1670 cxxbridge1$str$ptr + 3325856
+17  chromedriver                        0x000000010070de54 cxxbridge1$str$ptr + 3442564
+18  chromedriver                        0x00000001006e28f4 cxxbridge1$str$ptr + 3265060
+19  chromedriver                        0x00000001007288fc cxxbridge1$str$ptr + 3551788
+20  chromedriver                        0x0000000100728a78 cxxbridge1$str$ptr + 3552168
+21  chromedriver                        0x0000000100737ba4 cxxbridge1$str$ptr + 3613908
+22  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+23  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:28:50,728 - INFO - YouTube navigation task completed.
+2024-11-18 19:29:13,105 - ERROR - Video did not start in time.
+2024-11-18 19:29:13,254 - INFO - Browser closed.
+2024-11-18 19:35:00,803 - INFO - WebDriver initialized.
+2024-11-18 19:35:08,183 - INFO - Navigated to YouTube.
+2024-11-18 19:35:08,270 - INFO - Cookies popup accepted.
+2024-11-18 19:35:09,378 - ERROR - Error in YouTube navigation: 'YouTubeNavigator' object has no attribute 'query'
+2024-11-18 19:35:09,378 - INFO - YouTube navigation task completed.
+2024-11-18 19:35:29,601 - ERROR - Video did not start in time.
+2024-11-18 19:35:29,725 - INFO - Browser closed.
+2024-11-18 19:37:32,357 - INFO - WebDriver initialized.
+2024-11-18 19:37:39,719 - INFO - Navigated to YouTube.
+2024-11-18 19:37:39,780 - INFO - Cookies popup accepted.
+2024-11-18 19:37:41,288 - INFO - Searched for: video test
+2024-11-18 19:37:51,760 - ERROR - Error searching or playing video: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010277b6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000102773f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x00000001021e0104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000102222364 cxxbridge1$string$len + 359360
+4   chromedriver                        0x000000010225bbd0 cxxbridge1$string$len + 594988
+5   chromedriver                        0x0000000102216f54 cxxbridge1$string$len + 313264
+6   chromedriver                        0x0000000102217ba4 cxxbridge1$string$len + 316416
+7   chromedriver                        0x000000010274624c cxxbridge1$str$ptr + 3427196
+8   chromedriver                        0x0000000102749590 cxxbridge1$str$ptr + 3440320
+9   chromedriver                        0x000000010272d670 cxxbridge1$str$ptr + 3325856
+10  chromedriver                        0x0000000102749e54 cxxbridge1$str$ptr + 3442564
+11  chromedriver                        0x000000010271e8f4 cxxbridge1$str$ptr + 3265060
+12  chromedriver                        0x00000001027648fc cxxbridge1$str$ptr + 3551788
+13  chromedriver                        0x0000000102764a78 cxxbridge1$str$ptr + 3552168
+14  chromedriver                        0x0000000102773ba4 cxxbridge1$str$ptr + 3613908
+15  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:37:51,761 - INFO - YouTube navigation task completed.
+2024-11-18 19:37:51,761 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:40:52,866 - INFO - WebDriver initialized.
+2024-11-18 19:40:56,969 - INFO - Page fully loaded.
+2024-11-18 19:40:56,969 - INFO - Navigated to YouTube.
+2024-11-18 19:40:57,055 - INFO - Cookies popup accepted.
+2024-11-18 19:40:58,320 - INFO - Searched for: video test
+2024-11-18 19:40:59,509 - INFO - Video clicked and playing.
+2024-11-18 19:41:00,583 - INFO - Video is playing.
+2024-11-18 19:41:00,583 - INFO - YouTube navigation task completed.
+2024-11-18 19:41:00,584 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:41:15,718 - INFO - Browser closed.
+2024-11-18 19:41:19,204 - INFO - WebDriver initialized.
+2024-11-18 19:41:24,267 - INFO - Page fully loaded.
+2024-11-18 19:41:24,267 - INFO - Navigated to YouTube.
+2024-11-18 19:41:24,325 - INFO - Cookies popup accepted.
+2024-11-18 19:41:25,650 - INFO - Searched for: video test
+2024-11-18 19:41:36,125 - ERROR - Error searching or playing video: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001035676ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x000000010355ff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000102fcc104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x000000010300e364 cxxbridge1$string$len + 359360
+4   chromedriver                        0x0000000103047bd0 cxxbridge1$string$len + 594988
+5   chromedriver                        0x0000000103002f54 cxxbridge1$string$len + 313264
+6   chromedriver                        0x0000000103003ba4 cxxbridge1$string$len + 316416
+7   chromedriver                        0x000000010353224c cxxbridge1$str$ptr + 3427196
+8   chromedriver                        0x0000000103535590 cxxbridge1$str$ptr + 3440320
+9   chromedriver                        0x0000000103519670 cxxbridge1$str$ptr + 3325856
+10  chromedriver                        0x0000000103535e54 cxxbridge1$str$ptr + 3442564
+11  chromedriver                        0x000000010350a8f4 cxxbridge1$str$ptr + 3265060
+12  chromedriver                        0x00000001035508fc cxxbridge1$str$ptr + 3551788
+13  chromedriver                        0x0000000103550a78 cxxbridge1$str$ptr + 3552168
+14  chromedriver                        0x000000010355fba4 cxxbridge1$str$ptr + 3613908
+15  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:41:36,125 - INFO - YouTube navigation task completed.
+2024-11-18 19:41:36,126 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:41:54,415 - INFO - WebDriver initialized.
+2024-11-18 19:42:00,615 - INFO - Page fully loaded.
+2024-11-18 19:42:00,616 - INFO - Navigated to YouTube.
+2024-11-18 19:42:00,668 - INFO - Cookies popup accepted.
+2024-11-18 19:42:01,925 - INFO - Searched for: video test
+2024-11-18 19:42:07,583 - ERROR - Error in YouTube navigation: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x0000000104d476ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000104d3ff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x00000001047ac104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000104787b70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010481466c cxxbridge1$string$len + 515784
+5   chromedriver                        0x0000000104827638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x00000001047e2f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x00000001047e3ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x0000000104d1224c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000104d15590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000104cf9670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000104d15e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x0000000104cea8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x0000000104d308fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000104d30a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000104d3fba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:42:07,583 - INFO - YouTube navigation task completed.
+2024-11-18 19:43:24,324 - INFO - WebDriver initialized.
+2024-11-18 19:43:29,060 - INFO - Page fully loaded.
+2024-11-18 19:43:29,060 - INFO - Navigated to YouTube.
+2024-11-18 19:43:29,103 - INFO - Cookies popup accepted.
+2024-11-18 19:43:30,700 - INFO - Searched for: video test
+2024-11-18 19:43:31,855 - INFO - Video clicked and playing.
+2024-11-18 19:43:33,007 - INFO - Video is playing.
+2024-11-18 19:43:33,010 - INFO - YouTube navigation task completed.
+2024-11-18 19:43:33,011 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:43:48,147 - INFO - Browser closed.
+2024-11-18 19:43:51,584 - INFO - WebDriver initialized.
+2024-11-18 19:43:57,513 - INFO - Page fully loaded.
+2024-11-18 19:43:57,513 - INFO - Navigated to YouTube.
+2024-11-18 19:43:57,550 - INFO - Cookies popup accepted.
+2024-11-18 19:43:58,802 - INFO - Searched for: video test
+2024-11-18 19:43:59,971 - INFO - Video clicked and playing.
+2024-11-18 19:44:01,103 - INFO - Video is playing.
+2024-11-18 19:44:01,103 - INFO - YouTube navigation task completed.
+2024-11-18 19:44:01,103 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:44:16,241 - INFO - Browser closed.
+2024-11-18 19:44:56,513 - INFO - WebDriver initialized.
+2024-11-18 19:45:02,015 - INFO - Page fully loaded.
+2024-11-18 19:45:02,015 - INFO - Navigated to YouTube.
+2024-11-18 19:45:02,057 - INFO - Cookies popup accepted.
+2024-11-18 19:45:03,290 - INFO - Searched for: video test
+2024-11-18 19:45:04,401 - INFO - Video clicked and playing.
+2024-11-18 19:45:05,464 - INFO - Video is playing.
+2024-11-18 19:45:05,464 - INFO - YouTube navigation task completed.
+2024-11-18 19:45:05,464 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:45:20,634 - INFO - Browser closed.
+2024-11-18 19:47:15,419 - INFO - WebDriver initialized.
+2024-11-18 19:47:21,582 - INFO - Page fully loaded.
+2024-11-18 19:47:21,582 - INFO - Navigated to YouTube.
+2024-11-18 19:47:21,627 - INFO - Cookies popup accepted.
+2024-11-18 19:47:23,240 - INFO - Searched for: video test
+2024-11-18 19:47:33,491 - ERROR - Error searching or playing video: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100a136ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000100a0bf0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000100478104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x00000001004ba364 cxxbridge1$string$len + 359360
+4   chromedriver                        0x00000001004f3bd0 cxxbridge1$string$len + 594988
+5   chromedriver                        0x00000001004aef54 cxxbridge1$string$len + 313264
+6   chromedriver                        0x00000001004afba4 cxxbridge1$string$len + 316416
+7   chromedriver                        0x00000001009de24c cxxbridge1$str$ptr + 3427196
+8   chromedriver                        0x00000001009e1590 cxxbridge1$str$ptr + 3440320
+9   chromedriver                        0x00000001009c5670 cxxbridge1$str$ptr + 3325856
+10  chromedriver                        0x00000001009e1e54 cxxbridge1$str$ptr + 3442564
+11  chromedriver                        0x00000001009b68f4 cxxbridge1$str$ptr + 3265060
+12  chromedriver                        0x00000001009fc8fc cxxbridge1$str$ptr + 3551788
+13  chromedriver                        0x00000001009fca78 cxxbridge1$str$ptr + 3552168
+14  chromedriver                        0x0000000100a0bba4 cxxbridge1$str$ptr + 3613908
+15  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:47:33,491 - INFO - YouTube navigation task completed.
+2024-11-18 19:47:33,491 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:49:26,137 - INFO - WebDriver initialized.
+2024-11-18 19:49:32,469 - INFO - Page fully loaded.
+2024-11-18 19:49:32,470 - INFO - Navigated to YouTube.
+2024-11-18 19:49:32,513 - INFO - Cookies popup accepted.
+2024-11-18 19:49:33,726 - INFO - Searched for: video test
+2024-11-18 19:49:34,924 - INFO - Video clicked and playing.
+2024-11-18 19:49:36,006 - INFO - Video is playing.
+2024-11-18 19:49:36,007 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 19:49:40,105 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x000000010558b6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000105583f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000104ff0104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000104fcbb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010505866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010506b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000105026f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000105027ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x000000010555624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000105559590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x000000010553d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000105559e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010552e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001055748fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000105574a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000105583ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:49:41,111 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x000000010558b6ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x0000000105583f0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000104ff0104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000104fcbb70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010505866c cxxbridge1$string$len + 515784
+5   chromedriver                        0x000000010506b638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000105026f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000105027ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x000000010555624c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000105559590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x000000010553d670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000105559e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010552e8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001055748fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x0000000105574a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x0000000105583ba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:49:42,117 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101c662a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:42,118 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100ff7b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:42,118 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d2b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:42,119 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d520>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:43,127 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d940>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:43,129 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101db80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:43,130 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101ddf0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:43,131 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101e0c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:44,138 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101e450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:44,140 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101e690>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:44,141 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101e8d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:44,143 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101eb10>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:45,149 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100f99760>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:45,149 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101e330>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:45,150 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101dfd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:45,151 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101e000>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:46,155 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101da60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:46,156 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d250>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:46,157 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d430>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:46,157 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d0a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:47,165 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101eed0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:47,166 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101f140>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:47,167 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101f380>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:47,168 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101f620>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:48,170 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101f9e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:48,170 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101fc80>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:48,171 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100f9ae40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:48,171 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100ff7b30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:49,178 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101dc40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:49,179 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101f620>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:49,180 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101f350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:49,181 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101ef00>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:50,188 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d3d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:50,188 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101eba0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:50,189 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d5e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/e21aeecbe8290250eda3a09229efe79c/element
+2024-11-18 19:49:50,190 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60319): Max retries exceeded with url: /session/e21aeecbe8290250eda3a09229efe79c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10101d9d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 19:49:51,012 - INFO - YouTube navigation task completed.
+2024-11-18 19:49:53,391 - INFO - WebDriver initialized.
+2024-11-18 19:49:58,729 - INFO - Page fully loaded.
+2024-11-18 19:49:58,729 - INFO - Navigated to YouTube.
+2024-11-18 19:49:58,766 - INFO - Cookies popup accepted.
+2024-11-18 19:50:01,192 - INFO - Searched for: video test
+2024-11-18 19:50:02,533 - INFO - Video clicked and playing.
+2024-11-18 19:50:03,559 - INFO - Video is playing.
+2024-11-18 19:50:03,559 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 19:50:09,826 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 19:50:18,564 - INFO - YouTube navigation task completed.
+2024-11-18 19:50:18,564 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:50:33,705 - INFO - Browser closed.
+2024-11-18 19:51:30,640 - INFO - WebDriver initialized.
+2024-11-18 19:51:36,455 - INFO - Page fully loaded.
+2024-11-18 19:51:36,456 - INFO - Navigated to YouTube.
+2024-11-18 19:51:36,501 - INFO - Cookies popup accepted.
+2024-11-18 19:51:38,727 - INFO - Searched for: video test
+2024-11-18 19:51:39,988 - INFO - Video clicked and playing.
+2024-11-18 19:51:41,032 - INFO - Video is playing.
+2024-11-18 19:51:41,033 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 19:51:47,299 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-18 19:51:56,038 - INFO - YouTube navigation task completed.
+2024-11-18 19:51:56,038 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-18 19:51:57,744 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001007c76ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x00000001007bff0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x000000010022c104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000100207b70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x000000010029466c cxxbridge1$string$len + 515784
+5   chromedriver                        0x00000001002a7638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x0000000100262f54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x0000000100263ba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x000000010079224c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x0000000100795590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000100779670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x0000000100795e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x000000010076a8f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001007b08fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x00000001007b0a78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x00000001007bfba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 19:55:15,326 - INFO - Screen recording started (audio + video).
+2024-11-18 19:55:15,382 - INFO - Video recording started.
+2024-11-18 19:55:17,622 - INFO - Audio recording started.
+2024-11-18 19:55:25,507 - INFO - Audio saved to output_audio.wav.
+2024-11-18 19:55:25,507 - INFO - Audio recording stopped.
+2024-11-18 19:55:31,225 - INFO - Video saved to output_video.mp4.
+2024-11-18 19:55:31,226 - INFO - Video recording stopped.
+2024-11-18 19:55:31,226 - INFO - Screen recording stopped (audio + video).
+2024-11-18 19:55:31,227 - INFO - Recording completed.
+2024-11-18 20:11:34,331 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:11:34,388 - INFO - Video recording started.
+2024-11-18 20:11:34,438 - INFO - Audio recording started.
+2024-11-18 20:11:44,347 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 20:11:44,544 - INFO - Audio saved to output_audio.wav.
+2024-11-18 20:11:44,544 - INFO - Audio recording stopped.
+2024-11-18 20:11:50,267 - INFO - Video saved to output_video.mp4.
+2024-11-18 20:11:50,267 - INFO - Video recording stopped.
+2024-11-18 20:11:50,268 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 20:11:50,268 - INFO - AV recording completed successfully.
+2024-11-18 20:21:45,629 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:21:45,629 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 20:21:45,688 - INFO - Video recording started.
+2024-11-18 20:21:45,715 - INFO - Audio recording started.
+2024-11-18 20:21:55,918 - INFO - Audio saved to output_audio.wav.
+2024-11-18 20:21:55,919 - INFO - Audio recording stopped.
+2024-11-18 20:24:10,364 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:24:10,365 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 20:24:10,420 - INFO - Video recording started.
+2024-11-18 20:24:10,431 - INFO - Audio recording started.
+2024-11-18 20:24:20,370 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 20:24:20,550 - INFO - Audio saved to output_audio.wav.
+2024-11-18 20:24:20,551 - INFO - Audio recording stopped.
+2024-11-18 20:24:26,449 - INFO - Video saved to output_video.mp4.
+2024-11-18 20:24:26,449 - INFO - Video recording stopped.
+2024-11-18 20:24:26,450 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 20:24:26,450 - INFO - AV recording completed successfully.
+2024-11-18 20:31:23,274 - INFO - WebDriver initialized.
+2024-11-18 20:31:27,761 - INFO - Page fully loaded.
+2024-11-18 20:31:27,762 - INFO - Navigated to YouTube.
+2024-11-18 20:31:27,809 - INFO - Cookies popup accepted.
+2024-11-18 20:31:30,010 - INFO - Searched for: video test
+2024-11-18 20:31:31,160 - INFO - Video clicked and playing.
+2024-11-18 20:31:32,344 - INFO - Video is playing.
+2024-11-18 20:31:32,344 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-18 20:31:37,973 - ERROR - Eroare la monitorizarea pop-up-urilor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.119)
+Stacktrace:
+0   chromedriver                        0x00000001015d36ac cxxbridge1$str$ptr + 3645404
+1   chromedriver                        0x00000001015cbf0c cxxbridge1$str$ptr + 3614780
+2   chromedriver                        0x0000000101038104 cxxbridge1$string$len + 88416
+3   chromedriver                        0x0000000101013b70 core::str::slice_error_fail::h1cab30ac4b13c655 + 3792
+4   chromedriver                        0x00000001010a066c cxxbridge1$string$len + 515784
+5   chromedriver                        0x00000001010b3638 cxxbridge1$string$len + 593556
+6   chromedriver                        0x000000010106ef54 cxxbridge1$string$len + 313264
+7   chromedriver                        0x000000010106fba4 cxxbridge1$string$len + 316416
+8   chromedriver                        0x000000010159e24c cxxbridge1$str$ptr + 3427196
+9   chromedriver                        0x00000001015a1590 cxxbridge1$str$ptr + 3440320
+10  chromedriver                        0x0000000101585670 cxxbridge1$str$ptr + 3325856
+11  chromedriver                        0x00000001015a1e54 cxxbridge1$str$ptr + 3442564
+12  chromedriver                        0x00000001015768f4 cxxbridge1$str$ptr + 3265060
+13  chromedriver                        0x00000001015bc8fc cxxbridge1$str$ptr + 3551788
+14  chromedriver                        0x00000001015bca78 cxxbridge1$str$ptr + 3552168
+15  chromedriver                        0x00000001015cbba4 cxxbridge1$str$ptr + 3613908
+16  libsystem_pthread.dylib             0x0000000191e532e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000191e4e0fc thread_start + 8
+
+2024-11-18 20:31:38,981 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1039252b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cdce2357f7c190a1ebb1af6963d40eaf/element
+2024-11-18 20:31:38,982 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102cbfda0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cdce2357f7c190a1ebb1af6963d40eaf/element
+2024-11-18 20:31:38,983 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102ce1430>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/cdce2357f7c190a1ebb1af6963d40eaf/element
+2024-11-18 20:31:38,983 - ERROR - Eroare la monitorizarea pop-up-urilor: HTTPConnectionPool(host='localhost', port=60750): Max retries exceeded with url: /session/cdce2357f7c190a1ebb1af6963d40eaf/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102ce16a0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-18 20:37:22,675 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:37:22,675 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 20:37:22,721 - INFO - Video recording started.
+2024-11-18 20:37:22,744 - INFO - Audio recording started.
+2024-11-18 20:37:32,679 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 20:37:32,838 - INFO - Audio saved to output_audio.wav.
+2024-11-18 20:37:32,838 - INFO - Audio recording stopped.
+2024-11-18 20:37:38,874 - INFO - Video saved to output_video.mp4.
+2024-11-18 20:37:38,875 - INFO - Video recording stopped.
+2024-11-18 20:37:38,875 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 20:37:38,875 - INFO - AV recording completed successfully.
+2024-11-18 20:40:38,937 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:40:38,937 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 20:40:38,981 - INFO - Video recording started.
+2024-11-18 20:40:38,997 - INFO - Audio recording started.
+2024-11-18 20:40:51,392 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 20:40:51,392 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 20:40:51,432 - INFO - Video recording started.
+2024-11-18 20:40:51,449 - INFO - Audio recording started.
+2024-11-18 20:41:01,397 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 20:41:01,647 - INFO - Audio saved to output_audio.wav.
+2024-11-18 20:41:01,647 - INFO - Audio recording stopped.
+2024-11-18 20:41:07,545 - INFO - Video saved to output_video.mp4.
+2024-11-18 20:41:07,545 - INFO - Video recording stopped.
+2024-11-18 20:41:07,546 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 20:41:07,546 - INFO - Merging audio and video into final output.
+2024-11-18 20:41:13,634 - INFO - Audio and video combined into final_output.mp4.
+2024-11-18 20:41:13,635 - INFO - AV recording completed successfully.
+2024-11-18 23:35:43,658 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:35:43,658 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:35:43,698 - INFO - Video recording started.
+2024-11-18 23:35:43,718 - INFO - Audio recording started.
+2024-11-18 23:35:52,575 - INFO - Starting AVRecorder (audio + video).
+2024-11-18 23:35:52,575 - INFO - Found BlackHole device: BlackHole 16ch
+2024-11-18 23:35:52,614 - INFO - Video recording started.
+2024-11-18 23:35:52,638 - INFO - Audio recording started.
+2024-11-18 23:36:02,578 - INFO - Stopping AVRecorder (audio + video).
+2024-11-18 23:36:02,833 - INFO - Audio saved to output_audio.wav.
+2024-11-18 23:36:02,833 - INFO - Audio recording stopped.
+2024-11-18 23:36:08,620 - INFO - Video saved to output_video.mp4.
+2024-11-18 23:36:08,620 - INFO - Video recording stopped.
+2024-11-18 23:36:08,620 - INFO - AVRecorder stopped (audio + video).
+2024-11-18 23:36:08,621 - ERROR - Error during AV recording: AVRecorder.merge_audio_video() missing 2 required positional arguments: 'video_file' and 'audio_file'
+2024-11-19 00:21:41,556 - INFO - WebDriver initialized.
+2024-11-19 00:21:46,521 - INFO - Page fully loaded.
+2024-11-19 00:21:46,522 - INFO - Navigated to YouTube.
+2024-11-19 00:21:46,564 - INFO - Cookies popup accepted.
+2024-11-19 00:21:48,769 - INFO - Searched for: video test
+2024-11-19 00:21:49,988 - INFO - Video clicked and playing.
+2024-11-19 00:21:51,040 - INFO - Video is playing.
+2024-11-19 00:21:51,040 - ERROR - Error in YouTube navigation: can't create new thread at interpreter shutdown
+2024-11-19 00:21:51,040 - INFO - YouTube navigation task completed.
+2024-11-19 00:22:10,218 - INFO - WebDriver initialized.
+2024-11-19 00:22:14,004 - INFO - Page fully loaded.
+2024-11-19 00:22:14,004 - INFO - Navigated to YouTube.
+2024-11-19 00:22:14,049 - INFO - Cookies popup accepted.
+2024-11-19 00:22:16,223 - INFO - Searched for: video test
+2024-11-19 00:22:17,299 - INFO - Video clicked and playing.
+2024-11-19 00:22:18,353 - INFO - Video is playing.
+2024-11-19 00:22:18,354 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:22:33,356 - INFO - YouTube navigation task completed.
+2024-11-19 00:22:33,356 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-19 00:22:34,238 - INFO - Pop-up YouTube Premium (Dismiss) închis.
+2024-11-19 00:22:48,523 - INFO - Browser closed.
+2024-11-19 00:29:11,838 - INFO - WebDriver initialized.
+2024-11-19 00:29:18,494 - INFO - Page fully loaded.
+2024-11-19 00:29:18,494 - INFO - Navigated to YouTube.
+2024-11-19 00:29:18,542 - INFO - Cookies popup accepted.
+2024-11-19 00:29:20,769 - INFO - Searched for: video test
+2024-11-19 00:29:21,839 - INFO - Video clicked and playing.
+2024-11-19 00:29:22,887 - INFO - Video is playing.
+2024-11-19 00:29:22,888 - INFO - Video is playing. Proceeding with other tasks...
+2024-11-19 00:29:22,888 - INFO - Încep monitorizarea pop-up-urilor.
+2024-11-19 00:29:37,894 - INFO - YouTube navigation task completed.
+2024-11-19 00:29:37,964 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2024-11-19 00:29:38,037 - INFO - Browser closed.
